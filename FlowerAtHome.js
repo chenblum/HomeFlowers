@@ -8,8 +8,8 @@ var loadedGoogleCount = 0;
 var gFontsUpdateCacheList = [];
 var tFontsUpdateCacheList = [];
 lib.ssMetadata = [
-		{name:"FlowerAtHome_atlas_1", frames: [[311,545,135,58],[1802,499,152,74],[0,495,159,74],[764,417,336,58],[0,343,385,74],[0,267,392,74],[1102,417,320,58],[1435,378,367,74],[387,417,375,74],[1549,530,181,58],[764,477,205,74],[1804,423,212,74],[161,545,148,58],[1634,454,166,74],[394,267,220,98],[1363,530,184,58],[1424,454,208,74],[0,419,215,74],[217,419,168,58],[1171,477,190,74],[971,477,198,74],[466,493,241,51],[1193,257,240,158],[657,0,261,213],[1805,0,241,204],[1142,0,219,252],[920,0,220,251],[1580,0,223,224],[1805,206,219,215],[223,0,215,265],[657,253,270,162],[929,254,262,154],[0,0,221,261],[1363,0,215,255],[440,0,215,264],[217,493,247,50],[1435,257,132,107],[1580,226,196,150],[2026,206,1,1],[387,367,59,41],[1956,499,57,114]]},
-		{name:"FlowerAtHome_atlas_2", frames: [[1488,1530,215,273],[1523,388,223,289],[1705,1530,215,273],[955,1371,302,256],[1223,388,298,377],[1748,379,223,283],[1754,962,215,272],[1223,0,340,386],[1259,1530,227,260],[1565,0,298,377],[1811,664,223,280],[1757,1236,215,272],[647,1385,303,296],[320,1653,297,377],[1586,679,223,281],[902,1683,215,273],[647,1006,306,377],[1527,982,225,272],[1223,767,361,213],[0,1653,318,377],[955,1006,297,363],[1532,1256,223,272],[1254,982,271,272],[619,1683,281,280],[1259,1256,271,272],[0,1006,645,645],[0,0,1221,1004]]}
+		{name:"FlowerAtHome_atlas_1", frames: [[1488,1530,215,273],[1523,388,223,289],[1705,1530,215,273],[955,1371,302,256],[1223,388,298,377],[1748,379,223,283],[1754,962,215,272],[1223,0,340,386],[1259,1530,227,260],[1565,0,298,377],[1811,664,223,280],[1757,1236,215,272],[647,1385,303,296],[320,1653,297,377],[1586,679,223,281],[902,1683,215,273],[647,1006,306,377],[1527,982,225,272],[1223,767,361,213],[0,1653,318,377],[955,1006,297,363],[1532,1256,223,272],[1254,982,271,272],[619,1683,281,280],[1259,1256,271,272],[0,1006,645,645],[0,0,1221,1004]]},
+		{name:"FlowerAtHome_atlas_2", frames: [[311,545,135,58],[1802,499,152,74],[0,495,159,74],[764,417,336,58],[0,343,385,74],[0,267,392,74],[1102,417,320,58],[1435,378,367,74],[387,417,375,74],[1549,530,181,58],[764,477,205,74],[1804,423,212,74],[161,545,148,58],[1634,454,166,74],[394,267,220,98],[1363,530,184,58],[1424,454,208,74],[0,419,215,74],[217,419,168,58],[1171,477,190,74],[971,477,198,74],[466,493,241,51],[1193,257,240,158],[657,0,261,213],[1805,0,241,204],[1142,0,219,252],[920,0,220,251],[1580,0,223,224],[1805,206,219,215],[223,0,215,265],[657,253,270,162],[929,254,262,154],[0,0,221,261],[1363,0,215,255],[440,0,215,264],[217,493,247,50],[1435,257,132,107],[1580,226,196,150],[2026,206,1,1],[387,367,59,41],[1956,499,57,114]]}
 ];
 
 
@@ -71,6 +71,7 @@ lib.tfontAvailable = function(family, totalTypekitCount) {
 };
 (lib.AnMovieClip = function(){
 	this.actionFrames = [];
+	this.ignorePause = false;
 	this.gotoAndPlay = function(positionOrLabel){
 		cjs.MovieClip.prototype.gotoAndPlay.call(this,positionOrLabel);
 	}
@@ -88,223 +89,223 @@ lib.tfontAvailable = function(family, totalTypekitCount) {
 
 
 
-(lib.CachedBmp_518 = function() {
-	this.initialize(ss["FlowerAtHome_atlas_1"]);
+(lib.CachedBmp_110 = function() {
+	this.initialize(ss["FlowerAtHome_atlas_2"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_109 = function() {
-	this.initialize(ss["FlowerAtHome_atlas_1"]);
+	this.initialize(ss["FlowerAtHome_atlas_2"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_108 = function() {
-	this.initialize(ss["FlowerAtHome_atlas_1"]);
+	this.initialize(ss["FlowerAtHome_atlas_2"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_107 = function() {
-	this.initialize(ss["FlowerAtHome_atlas_1"]);
+	this.initialize(ss["FlowerAtHome_atlas_2"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_106 = function() {
-	this.initialize(ss["FlowerAtHome_atlas_1"]);
+	this.initialize(ss["FlowerAtHome_atlas_2"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_105 = function() {
-	this.initialize(ss["FlowerAtHome_atlas_1"]);
+	this.initialize(ss["FlowerAtHome_atlas_2"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_104 = function() {
-	this.initialize(ss["FlowerAtHome_atlas_1"]);
+	this.initialize(ss["FlowerAtHome_atlas_2"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_103 = function() {
-	this.initialize(ss["FlowerAtHome_atlas_1"]);
+	this.initialize(ss["FlowerAtHome_atlas_2"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_102 = function() {
-	this.initialize(ss["FlowerAtHome_atlas_1"]);
+	this.initialize(ss["FlowerAtHome_atlas_2"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_101 = function() {
-	this.initialize(ss["FlowerAtHome_atlas_1"]);
+	this.initialize(ss["FlowerAtHome_atlas_2"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_517 = function() {
-	this.initialize(ss["FlowerAtHome_atlas_1"]);
+(lib.CachedBmp_100 = function() {
+	this.initialize(ss["FlowerAtHome_atlas_2"]);
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_99 = function() {
-	this.initialize(ss["FlowerAtHome_atlas_1"]);
+	this.initialize(ss["FlowerAtHome_atlas_2"]);
 	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_516 = function() {
-	this.initialize(ss["FlowerAtHome_atlas_1"]);
+(lib.CachedBmp_98 = function() {
+	this.initialize(ss["FlowerAtHome_atlas_2"]);
 	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_97 = function() {
-	this.initialize(ss["FlowerAtHome_atlas_1"]);
+	this.initialize(ss["FlowerAtHome_atlas_2"]);
 	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_515 = function() {
-	this.initialize(ss["FlowerAtHome_atlas_1"]);
+(lib.CachedBmp_96 = function() {
+	this.initialize(ss["FlowerAtHome_atlas_2"]);
 	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_95 = function() {
-	this.initialize(ss["FlowerAtHome_atlas_1"]);
+	this.initialize(ss["FlowerAtHome_atlas_2"]);
 	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_514 = function() {
-	this.initialize(ss["FlowerAtHome_atlas_1"]);
+(lib.CachedBmp_94 = function() {
+	this.initialize(ss["FlowerAtHome_atlas_2"]);
 	this.gotoAndStop(16);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_93 = function() {
-	this.initialize(ss["FlowerAtHome_atlas_1"]);
+	this.initialize(ss["FlowerAtHome_atlas_2"]);
 	this.gotoAndStop(17);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_92 = function() {
-	this.initialize(ss["FlowerAtHome_atlas_1"]);
+	this.initialize(ss["FlowerAtHome_atlas_2"]);
 	this.gotoAndStop(18);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_513 = function() {
-	this.initialize(ss["FlowerAtHome_atlas_1"]);
+(lib.CachedBmp_91 = function() {
+	this.initialize(ss["FlowerAtHome_atlas_2"]);
 	this.gotoAndStop(19);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_90 = function() {
-	this.initialize(ss["FlowerAtHome_atlas_1"]);
+	this.initialize(ss["FlowerAtHome_atlas_2"]);
 	this.gotoAndStop(20);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_89 = function() {
-	this.initialize(ss["FlowerAtHome_atlas_1"]);
+	this.initialize(ss["FlowerAtHome_atlas_2"]);
 	this.gotoAndStop(21);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_88 = function() {
-	this.initialize(ss["FlowerAtHome_atlas_1"]);
+	this.initialize(ss["FlowerAtHome_atlas_2"]);
 	this.gotoAndStop(22);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_512 = function() {
-	this.initialize(img.CachedBmp_512);
+(lib.CachedBmp_87 = function() {
+	this.initialize(img.CachedBmp_87);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,2561,1436);
 
 
-(lib.CachedBmp_511 = function() {
-	this.initialize(img.CachedBmp_511);
+(lib.CachedBmp_85 = function() {
+	this.initialize(img.CachedBmp_85);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,2561,1436);
 
 
-(lib.CachedBmp_510 = function() {
-	this.initialize(img.CachedBmp_510);
+(lib.CachedBmp_83 = function() {
+	this.initialize(img.CachedBmp_83);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,2561,1436);
 
 
-(lib.CachedBmp_509 = function() {
-	this.initialize(img.CachedBmp_509);
+(lib.CachedBmp_81 = function() {
+	this.initialize(img.CachedBmp_81);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,2561,1436);
 
 
-(lib.CachedBmp_508 = function() {
-	this.initialize(img.CachedBmp_508);
+(lib.CachedBmp_79 = function() {
+	this.initialize(img.CachedBmp_79);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,2561,1436);
 
 
-(lib.CachedBmp_507 = function() {
-	this.initialize(img.CachedBmp_507);
+(lib.CachedBmp_77 = function() {
+	this.initialize(img.CachedBmp_77);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,2561,1436);
 
 
-(lib.CachedBmp_506 = function() {
-	this.initialize(img.CachedBmp_506);
+(lib.CachedBmp_75 = function() {
+	this.initialize(img.CachedBmp_75);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,2561,1436);
 
 
-(lib.CachedBmp_505 = function() {
-	this.initialize(img.CachedBmp_505);
+(lib.CachedBmp_73 = function() {
+	this.initialize(img.CachedBmp_73);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,2561,1436);
 
 
-(lib.CachedBmp_504 = function() {
-	this.initialize(img.CachedBmp_504);
+(lib.CachedBmp_71 = function() {
+	this.initialize(img.CachedBmp_71);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,2561,1436);
 
 
-(lib.CachedBmp_503 = function() {
-	this.initialize(img.CachedBmp_503);
+(lib.CachedBmp_69 = function() {
+	this.initialize(img.CachedBmp_69);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,2561,1436);
 
@@ -316,387 +317,387 @@ p.nominalBounds = new cjs.Rectangle(0,0,2258,963);
 
 
 (lib.CachedBmp_67 = function() {
-	this.initialize(ss["FlowerAtHome_atlas_2"]);
+	this.initialize(ss["FlowerAtHome_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_66 = function() {
-	this.initialize(ss["FlowerAtHome_atlas_2"]);
+	this.initialize(ss["FlowerAtHome_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_65 = function() {
-	this.initialize(ss["FlowerAtHome_atlas_2"]);
+	this.initialize(ss["FlowerAtHome_atlas_1"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_64 = function() {
-	this.initialize(ss["FlowerAtHome_atlas_2"]);
+	this.initialize(ss["FlowerAtHome_atlas_1"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_63 = function() {
-	this.initialize(ss["FlowerAtHome_atlas_1"]);
+	this.initialize(ss["FlowerAtHome_atlas_2"]);
 	this.gotoAndStop(23);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_62 = function() {
-	this.initialize(ss["FlowerAtHome_atlas_1"]);
+	this.initialize(ss["FlowerAtHome_atlas_2"]);
 	this.gotoAndStop(24);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_61 = function() {
-	this.initialize(ss["FlowerAtHome_atlas_2"]);
+	this.initialize(ss["FlowerAtHome_atlas_1"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_60 = function() {
-	this.initialize(ss["FlowerAtHome_atlas_2"]);
+	this.initialize(ss["FlowerAtHome_atlas_1"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_59 = function() {
-	this.initialize(ss["FlowerAtHome_atlas_2"]);
+	this.initialize(ss["FlowerAtHome_atlas_1"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_58 = function() {
-	this.initialize(ss["FlowerAtHome_atlas_2"]);
+	this.initialize(ss["FlowerAtHome_atlas_1"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_57 = function() {
-	this.initialize(ss["FlowerAtHome_atlas_2"]);
+	this.initialize(ss["FlowerAtHome_atlas_1"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_56 = function() {
-	this.initialize(ss["FlowerAtHome_atlas_1"]);
+	this.initialize(ss["FlowerAtHome_atlas_2"]);
 	this.gotoAndStop(25);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_55 = function() {
-	this.initialize(ss["FlowerAtHome_atlas_1"]);
+	this.initialize(ss["FlowerAtHome_atlas_2"]);
 	this.gotoAndStop(26);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_54 = function() {
-	this.initialize(ss["FlowerAtHome_atlas_2"]);
+	this.initialize(ss["FlowerAtHome_atlas_1"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_53 = function() {
-	this.initialize(ss["FlowerAtHome_atlas_2"]);
+	this.initialize(ss["FlowerAtHome_atlas_1"]);
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_52 = function() {
-	this.initialize(ss["FlowerAtHome_atlas_2"]);
+	this.initialize(ss["FlowerAtHome_atlas_1"]);
 	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_51 = function() {
-	this.initialize(ss["FlowerAtHome_atlas_2"]);
+	this.initialize(ss["FlowerAtHome_atlas_1"]);
 	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_50 = function() {
-	this.initialize(ss["FlowerAtHome_atlas_1"]);
+	this.initialize(ss["FlowerAtHome_atlas_2"]);
 	this.gotoAndStop(27);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_49 = function() {
-	this.initialize(ss["FlowerAtHome_atlas_1"]);
+	this.initialize(ss["FlowerAtHome_atlas_2"]);
 	this.gotoAndStop(28);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_48 = function() {
-	this.initialize(ss["FlowerAtHome_atlas_2"]);
+	this.initialize(ss["FlowerAtHome_atlas_1"]);
 	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_47 = function() {
-	this.initialize(ss["FlowerAtHome_atlas_2"]);
+	this.initialize(ss["FlowerAtHome_atlas_1"]);
 	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_502 = function() {
-	this.initialize(ss["FlowerAtHome_atlas_2"]);
+(lib.CachedBmp_46 = function() {
+	this.initialize(ss["FlowerAtHome_atlas_1"]);
 	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_45 = function() {
-	this.initialize(ss["FlowerAtHome_atlas_2"]);
+	this.initialize(ss["FlowerAtHome_atlas_1"]);
 	this.gotoAndStop(16);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_44 = function() {
-	this.initialize(ss["FlowerAtHome_atlas_2"]);
+	this.initialize(ss["FlowerAtHome_atlas_1"]);
 	this.gotoAndStop(17);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_43 = function() {
-	this.initialize(ss["FlowerAtHome_atlas_1"]);
+	this.initialize(ss["FlowerAtHome_atlas_2"]);
 	this.gotoAndStop(29);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_42 = function() {
-	this.initialize(ss["FlowerAtHome_atlas_2"]);
+	this.initialize(ss["FlowerAtHome_atlas_1"]);
 	this.gotoAndStop(18);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_41 = function() {
-	this.initialize(ss["FlowerAtHome_atlas_1"]);
+	this.initialize(ss["FlowerAtHome_atlas_2"]);
 	this.gotoAndStop(30);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_40 = function() {
-	this.initialize(ss["FlowerAtHome_atlas_1"]);
+	this.initialize(ss["FlowerAtHome_atlas_2"]);
 	this.gotoAndStop(31);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_39 = function() {
-	this.initialize(ss["FlowerAtHome_atlas_2"]);
+	this.initialize(ss["FlowerAtHome_atlas_1"]);
 	this.gotoAndStop(19);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_501 = function() {
-	this.initialize(ss["FlowerAtHome_atlas_1"]);
+(lib.CachedBmp_38 = function() {
+	this.initialize(ss["FlowerAtHome_atlas_2"]);
 	this.gotoAndStop(32);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_37 = function() {
-	this.initialize(ss["FlowerAtHome_atlas_1"]);
+	this.initialize(ss["FlowerAtHome_atlas_2"]);
 	this.gotoAndStop(33);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_36 = function() {
-	this.initialize(ss["FlowerAtHome_atlas_2"]);
+	this.initialize(ss["FlowerAtHome_atlas_1"]);
 	this.gotoAndStop(20);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_35 = function() {
-	this.initialize(ss["FlowerAtHome_atlas_2"]);
+	this.initialize(ss["FlowerAtHome_atlas_1"]);
 	this.gotoAndStop(21);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_34 = function() {
-	this.initialize(ss["FlowerAtHome_atlas_1"]);
+	this.initialize(ss["FlowerAtHome_atlas_2"]);
 	this.gotoAndStop(34);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_33 = function() {
-	this.initialize(ss["FlowerAtHome_atlas_2"]);
+	this.initialize(ss["FlowerAtHome_atlas_1"]);
 	this.gotoAndStop(22);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_500 = function() {
-	this.initialize(ss["FlowerAtHome_atlas_2"]);
+(lib.CachedBmp_32 = function() {
+	this.initialize(ss["FlowerAtHome_atlas_1"]);
 	this.gotoAndStop(23);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_31 = function() {
-	this.initialize(ss["FlowerAtHome_atlas_2"]);
+	this.initialize(ss["FlowerAtHome_atlas_1"]);
 	this.gotoAndStop(24);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_499 = function() {
-	this.initialize(img.CachedBmp_499);
+(lib.CachedBmp_30 = function() {
+	this.initialize(img.CachedBmp_30);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,2561,1436);
 
 
-(lib.CachedBmp_498 = function() {
-	this.initialize(img.CachedBmp_498);
+(lib.CachedBmp_29 = function() {
+	this.initialize(img.CachedBmp_29);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,2561,1436);
 
 
-(lib.CachedBmp_497 = function() {
-	this.initialize(img.CachedBmp_497);
+(lib.CachedBmp_27 = function() {
+	this.initialize(img.CachedBmp_27);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,2561,1436);
 
 
-(lib.CachedBmp_496 = function() {
-	this.initialize(img.CachedBmp_496);
+(lib.CachedBmp_25 = function() {
+	this.initialize(img.CachedBmp_25);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,2561,1436);
 
 
-(lib.CachedBmp_495 = function() {
-	this.initialize(img.CachedBmp_495);
+(lib.CachedBmp_23 = function() {
+	this.initialize(img.CachedBmp_23);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,2561,1436);
 
 
-(lib.CachedBmp_494 = function() {
-	this.initialize(img.CachedBmp_494);
+(lib.CachedBmp_21 = function() {
+	this.initialize(img.CachedBmp_21);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,2561,1436);
 
 
-(lib.CachedBmp_493 = function() {
-	this.initialize(img.CachedBmp_493);
+(lib.CachedBmp_19 = function() {
+	this.initialize(img.CachedBmp_19);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,2561,1436);
 
 
-(lib.CachedBmp_492 = function() {
-	this.initialize(img.CachedBmp_492);
+(lib.CachedBmp_17 = function() {
+	this.initialize(img.CachedBmp_17);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,2561,1436);
 
 
-(lib.CachedBmp_491 = function() {
-	this.initialize(img.CachedBmp_491);
+(lib.CachedBmp_15 = function() {
+	this.initialize(img.CachedBmp_15);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,2561,1436);
 
 
-(lib.CachedBmp_490 = function() {
-	this.initialize(img.CachedBmp_490);
+(lib.CachedBmp_13 = function() {
+	this.initialize(img.CachedBmp_13);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,2561,1436);
 
 
-(lib.CachedBmp_489 = function() {
-	this.initialize(img.CachedBmp_489);
+(lib.CachedBmp_11 = function() {
+	this.initialize(img.CachedBmp_11);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,2561,1436);
 
 
-(lib.CachedBmp_488 = function() {
-	this.initialize(img.CachedBmp_488);
+(lib.CachedBmp_9 = function() {
+	this.initialize(img.CachedBmp_9);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,2561,1436);
 
 
 (lib.CachedBmp_28 = function() {
-	this.initialize(ss["FlowerAtHome_atlas_2"]);
+	this.initialize(ss["FlowerAtHome_atlas_1"]);
 	this.gotoAndStop(25);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_7 = function() {
-	this.initialize(ss["FlowerAtHome_atlas_2"]);
+	this.initialize(ss["FlowerAtHome_atlas_1"]);
 	this.gotoAndStop(26);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_6 = function() {
-	this.initialize(ss["FlowerAtHome_atlas_1"]);
+	this.initialize(ss["FlowerAtHome_atlas_2"]);
 	this.gotoAndStop(35);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_487 = function() {
-	this.initialize(ss["FlowerAtHome_atlas_1"]);
+(lib.CachedBmp_5 = function() {
+	this.initialize(ss["FlowerAtHome_atlas_2"]);
 	this.gotoAndStop(36);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_4 = function() {
-	this.initialize(ss["FlowerAtHome_atlas_1"]);
+	this.initialize(ss["FlowerAtHome_atlas_2"]);
 	this.gotoAndStop(37);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_486 = function() {
-	this.initialize(ss["FlowerAtHome_atlas_1"]);
+(lib.CachedBmp_3 = function() {
+	this.initialize(ss["FlowerAtHome_atlas_2"]);
 	this.gotoAndStop(38);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_485 = function() {
-	this.initialize(ss["FlowerAtHome_atlas_1"]);
+(lib.CachedBmp_2 = function() {
+	this.initialize(ss["FlowerAtHome_atlas_2"]);
 	this.gotoAndStop(39);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_1 = function() {
-	this.initialize(ss["FlowerAtHome_atlas_1"]);
+	this.initialize(ss["FlowerAtHome_atlas_2"]);
 	this.gotoAndStop(40);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
@@ -730,7 +731,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_518();
+	this.instance = new lib.CachedBmp_110();
 	this.instance.setTransform(0,0,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -960,7 +961,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_517();
+	this.instance = new lib.CachedBmp_100();
 	this.instance.setTransform(0,0,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -1006,7 +1007,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_516();
+	this.instance = new lib.CachedBmp_98();
 	this.instance.setTransform(0,0,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -1052,7 +1053,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_515();
+	this.instance = new lib.CachedBmp_96();
 	this.instance.setTransform(-11.5,-5.5,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -1098,7 +1099,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_514();
+	this.instance = new lib.CachedBmp_94();
 	this.instance.setTransform(0,0,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -1167,7 +1168,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_513();
+	this.instance = new lib.CachedBmp_91();
 	this.instance.setTransform(0,-2.1,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -1225,9 +1226,9 @@ if (reversed == null) { reversed = false; }
 	this.shape_2.graphics.f("#FFFFFF").s().p("AhBBCQgbgcAAgmQAAglAbgcQAbgbAmAAQAmAAAbAbQAcAcAAAlQAAAmgcAcQgbAbgmAAQgmAAgbgbg");
 	this.shape_2.setTransform(9.3,14.225);
 
-	this.text = new cjs.Text(".מחודש דצמבר עד חודש פברואר", "18px 'Varela Round'");
+	this.text = new cjs.Text(".מחודש דצמבר עד חודש פברואר", "18px 'Arial'");
 	this.text.textAlign = "right";
-	this.text.lineHeight = 26;
+	this.text.lineHeight = 22;
 	this.text.lineWidth = 260;
 	this.text.parent = this;
 	this.text.setTransform(-13,5.55);
@@ -1279,9 +1280,9 @@ if (reversed == null) { reversed = false; }
 	this.shape_2.graphics.f("#FFFFFF").s().p("AhBBCQgbgcAAgmQAAglAbgcQAbgbAmAAQAmAAAbAbQAcAcAAAlQAAAmgcAcQgbAbgmAAQgmAAgbgbg");
 	this.shape_2.setTransform(9.3,14.225);
 
-	this.text = new cjs.Text(".מחודש יוני עד חודש ספטמבר", "18px 'Varela Round'");
+	this.text = new cjs.Text(".מחודש יוני עד חודש ספטמבר", "18px 'Arial'");
 	this.text.textAlign = "right";
-	this.text.lineHeight = 26;
+	this.text.lineHeight = 22;
 	this.text.lineWidth = 233;
 	this.text.parent = this;
 	this.text.setTransform(-13,5.55);
@@ -1333,9 +1334,9 @@ if (reversed == null) { reversed = false; }
 	this.shape_2.graphics.f("#FFFFFF").s().p("AhBBCQgbgcAAgmQAAglAbgcQAbgbAmAAQAmAAAbAbQAcAcAAAlQAAAmgcAcQgbAbgmAAQgmAAgbgbg");
 	this.shape_2.setTransform(9.3,14.225);
 
-	this.text = new cjs.Text(".מחודש מרץ עד חודש מאי", "18px 'Varela Round'");
+	this.text = new cjs.Text(".מחודש מרץ עד חודש מאי", "18px 'Arial'");
 	this.text.textAlign = "right";
-	this.text.lineHeight = 26;
+	this.text.lineHeight = 22;
 	this.text.lineWidth = 202;
 	this.text.parent = this;
 	this.text.setTransform(-13,5.55);
@@ -1387,9 +1388,9 @@ if (reversed == null) { reversed = false; }
 	this.shape_2.graphics.f("#FFFFFF").s().p("AhBBCQgbgcAAgmQAAglAbgcQAbgbAmAAQAmAAAbAbQAcAcAAAlQAAAmgcAcQgbAbgmAAQgmAAgbgbg");
 	this.shape_2.setTransform(9.3,14.225);
 
-	this.text = new cjs.Text(".פורח כמה פעמים בשנה ", "18px 'Varela Round'");
+	this.text = new cjs.Text(".פורח כמה פעמים בשנה ", "18px 'Arial'");
 	this.text.textAlign = "right";
-	this.text.lineHeight = 26;
+	this.text.lineHeight = 22;
 	this.text.lineWidth = 189;
 	this.text.parent = this;
 	this.text.setTransform(-13,5.55);
@@ -1441,9 +1442,9 @@ if (reversed == null) { reversed = false; }
 	this.shape_2.graphics.f("#FFFFFF").s().p("AhBBCQgbgcAAgmQAAglAbgcQAbgbAmAAQAmAAAbAbQAcAcAAAlQAAAmgcAcQgbAbgmAAQgmAAgbgbg");
 	this.shape_2.setTransform(9.3,14.225);
 
-	this.text = new cjs.Text(".ללא חשיפה לשמש ישירה", "18px 'Varela Round'");
+	this.text = new cjs.Text(".ללא חשיפה לשמש ישירה", "18px 'Arial'");
 	this.text.textAlign = "right";
-	this.text.lineHeight = 26;
+	this.text.lineHeight = 22;
 	this.text.lineWidth = 200;
 	this.text.parent = this;
 	this.text.setTransform(-13,5.55);
@@ -1495,9 +1496,9 @@ if (reversed == null) { reversed = false; }
 	this.shape_2.graphics.f("#FFFFFF").s().p("AhBBCQgbgcAAgmQAAglAbgcQAbgbAmAAQAmAAAbAbQAcAcAAAlQAAAmgcAcQgbAbgmAAQgmAAgbgbg");
 	this.shape_2.setTransform(9.3,14.225);
 
-	this.text = new cjs.Text(".שמש בחלק משעות היום", "18px 'Varela Round'");
+	this.text = new cjs.Text(".שמש בחלק משעות היום", "18px 'Arial'");
 	this.text.textAlign = "right";
-	this.text.lineHeight = 26;
+	this.text.lineHeight = 22;
 	this.text.lineWidth = 193;
 	this.text.parent = this;
 	this.text.setTransform(-13,5.55);
@@ -1537,9 +1538,9 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.text = new cjs.Text("מחודש ספטמבר עד חודש דצמבר.", "18px 'Varela Round'");
+	this.text = new cjs.Text("מחודש ספטמבר עד חודש דצמבר.", "18px 'Arial'");
 	this.text.textAlign = "right";
-	this.text.lineHeight = 26;
+	this.text.lineHeight = 22;
 	this.text.lineWidth = 273;
 	this.text.parent = this;
 	this.text.setTransform(360.15,2);
@@ -1604,9 +1605,9 @@ if (reversed == null) { reversed = false; }
 	this.shape_2.graphics.f("#FFFFFF").s().p("AhBBCQgbgcAAgmQAAglAbgcQAbgbAmAAQAmAAAbAbQAcAcAAAlQAAAmgcAcQgbAbgmAAQgmAAgbgbg");
 	this.shape_2.setTransform(9.3,14.225);
 
-	this.text = new cjs.Text(".שמש ישירה בכל שעות היום", "18px 'Varela Round'");
+	this.text = new cjs.Text(".שמש ישירה בכל שעות היום", "18px 'Arial'");
 	this.text.textAlign = "right";
-	this.text.lineHeight = 26;
+	this.text.lineHeight = 22;
 	this.text.lineWidth = 221;
 	this.text.parent = this;
 	this.text.setTransform(-13,5.55);
@@ -1658,9 +1659,9 @@ if (reversed == null) { reversed = false; }
 	this.shape_2.graphics.f("#FFFFFF").s().p("AhBBCQgbgcAAgmQAAglAbgcQAbgbAmAAQAmAAAbAbQAcAcAAAlQAAAmgcAcQgbAbgmAAQgmAAgbgbg");
 	this.shape_2.setTransform(9.3,14.225);
 
-	this.text = new cjs.Text(".מחודש ספטמבר עד חודש דצמבר", "18px 'Varela Round'");
+	this.text = new cjs.Text(".מחודש ספטמבר עד חודש דצמבר", "18px 'Arial'");
 	this.text.textAlign = "right";
-	this.text.lineHeight = 26;
+	this.text.lineHeight = 22;
 	this.text.lineWidth = 269;
 	this.text.parent = this;
 	this.text.setTransform(-13,5.55);
@@ -1712,9 +1713,9 @@ if (reversed == null) { reversed = false; }
 	this.shape_2.graphics.f("#FFFFFF").s().p("AhBBCQgbgcAAgmQAAglAbgcQAbgbAmAAQAmAAAbAbQAcAcAAAlQAAAmgcAcQgbAbgmAAQgmAAgbgbg");
 	this.shape_2.setTransform(9.3,14.225);
 
-	this.text = new cjs.Text(".פורח פעם אחת בשנה", "18px 'Varela Round'");
+	this.text = new cjs.Text(".פורח פעם אחת בשנה", "18px 'Arial'");
 	this.text.textAlign = "right";
-	this.text.lineHeight = 26;
+	this.text.lineHeight = 22;
 	this.text.lineWidth = 173;
 	this.text.parent = this;
 	this.text.setTransform(-13,5.55);
@@ -1777,9 +1778,9 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_2
-	this.text = new cjs.Text("...למידע נוסף", "20px 'Varela Round'", "#333333");
+	this.text = new cjs.Text("...למידע נוסף", "20px 'Arial'", "#333333");
 	this.text.textAlign = "center";
-	this.text.lineHeight = 28;
+	this.text.lineHeight = 24;
 	this.text.lineWidth = 137;
 	this.text.parent = this;
 	this.text.setTransform(70.5,6.3);
@@ -1833,7 +1834,8 @@ if (reversed == null) { reversed = false; }
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.HITlogo, new cjs.Rectangle(0,0,120,79), null);
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(0,0,120,79);
 
 
 (lib.roseMain = function(mode,startPosition,loop,reversed) {
@@ -2047,7 +2049,7 @@ if (reversed == null) { reversed = false; }
 
 	// lilach
 	this.instance = new lib.CachedBmp_58();
-	this.instance.setTransform(0.35,1.1,0.335,0.335);
+	this.instance.setTransform(0.4,1.2,0.335,0.335);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
@@ -2295,7 +2297,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_502();
+	this.instance = new lib.CachedBmp_46();
 	this.instance.setTransform(2.7,-0.2,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -2471,7 +2473,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_501();
+	this.instance = new lib.CachedBmp_38();
 	this.instance.setTransform(-1.5,-1.5,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -2603,7 +2605,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_500();
+	this.instance = new lib.CachedBmp_32();
 	this.instance.setTransform(-2.7,-2.25,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -2738,7 +2740,7 @@ if (reversed == null) { reversed = false; }
 	this.shape_1.graphics.f("#005500").s().p("AiGEJQgWgHgKgdQgfALgdgNQgOgHgQgPQgRgOgHgNQgFgIACgNQADgOgEgLQgDgJgUgiQgRgegCgMQgDgeAggJQgXgaABgZQABgUAagcQAMgOALAJQAcgbAWgHIAKgCQAJgnAOgNQARgPAeAGQAHggAZgSQANgJAWgGQAVgHAOAAQAJAAAKAJQALAKALACQAJACAnAAQAjAAALAFQAcANgJAgQAjgGAVANQAQAMALAkIABACIAGgBQAKAAAGAEIANAMIAYAPQAPAKAGAJQAOAUgBAcQAOgBAJASQAOAmgFASQgGAWgcALQALAfgMAdQgGAOgOARQgOARgMAIQgIAFgNgBQgPgCgKAEQgJADghAVQgeATgLACQgfAEgKggQgYAYgbAAQgMAAgRgLIgGAFQgTAMgdgBQAAAOgSAHQgNAFgPACQgKACgIAAQgGAAgFgBg");
 	this.shape_1.setTransform(33.5277,27.0192);
 
-	this.instance = new lib.CachedBmp_487();
+	this.instance = new lib.CachedBmp_5();
 	this.instance.setTransform(0,0,0.5,0.5);
 
 	this.instance_1 = new lib.CachedBmp_4();
@@ -3121,51 +3123,51 @@ if (reversed == null) { reversed = false; }
 	this.instance.setTransform(236.9,512.2,1.3812,1.3811,0,0,0,53.8,68.2);
 	this.instance.shadow = new cjs.Shadow("rgba(153,153,153,1)",1,1,10);
 
-	this.text = new cjs.Text("  מומלץ להשתמש בפקעות של אירוסים ולא בזרעים. את הפקעות יש להשרות במים למשך זמן של בין יומיים לשבועיים טרם השתילה, ולאחר מכן לשתול באדנית מלאה בתערובת זבל אורגני עשיר או באדמה. יש לדשן בדשן אורגני המשחרר בהדרגה חומרים לאדמה,לערבב את הדשן היטב עם האדמה. מומלץ לשתול את הפקעות במרחק של 25 ס\"מ זו מזו .ולוודא כי שורשי הפרח מכוסים באדמה לגמרי", "18px 'Varela Round'");
+	this.text = new cjs.Text("  מומלץ להשתמש בפקעות של אירוסים ולא בזרעים. את הפקעות יש להשרות במים למשך זמן של בין יומיים לשבועיים טרם השתילה, ולאחר מכן לשתול באדנית מלאה בתערובת זבל אורגני עשיר או באדמה. יש לדשן בדשן אורגני המשחרר בהדרגה חומרים לאדמה,לערבב את הדשן היטב עם האדמה. מומלץ לשתול את הפקעות במרחק של 25 ס\"מ זו מזו .ולוודא כי שורשי הפרח מכוסים באדמה לגמרי", "18px 'Arial'");
 	this.text.textAlign = "right";
-	this.text.lineHeight = 26;
+	this.text.lineHeight = 22;
 	this.text.lineWidth = 897;
 	this.text.parent = this;
 	this.text.setTransform(1168.7,365.35);
 
-	this.text_1 = new cjs.Text(".מתחיל לאחר 3-4 חודשים מהזריעה", "18px 'Varela Round'");
+	this.text_1 = new cjs.Text(".מתחיל לאחר 3-4 חודשים מהזריעה", "18px 'Arial'");
 	this.text_1.textAlign = "right";
-	this.text_1.lineHeight = 26;
+	this.text_1.lineHeight = 22;
 	this.text_1.lineWidth = 776;
 	this.text_1.parent = this;
 	this.text_1.setTransform(1024.6,273.35);
 
-	this.text_2 = new cjs.Text(".קיימים מעל ל-300 מינים של אירוסים", "18px 'Varela Round'");
+	this.text_2 = new cjs.Text(".קיימים מעל ל-300 מינים של אירוסים", "18px 'Arial'");
 	this.text_2.textAlign = "right";
-	this.text_2.lineHeight = 26;
+	this.text_2.lineHeight = 22;
 	this.text_2.lineWidth = 854;
 	this.text_2.parent = this;
 	this.text_2.setTransform(1102.6,217.35);
 
-	this.text_3 = new cjs.Text(":כיצד לשתול ולדשן", "24px 'Varela Round'", "#57274A");
+	this.text_3 = new cjs.Text(":כיצד לשתול ולדשן", "24px 'Arial'", "#57274A");
 	this.text_3.textAlign = "right";
-	this.text_3.lineHeight = 33;
+	this.text_3.lineHeight = 29;
 	this.text_3.lineWidth = 199;
 	this.text_3.parent = this;
 	this.text_3.setTransform(1168.7,323.7);
 
-	this.text_4 = new cjs.Text(":תהליך נביטה", "24px 'Varela Round'", "#57274A");
+	this.text_4 = new cjs.Text(":תהליך נביטה", "24px 'Arial'", "#57274A");
 	this.text_4.textAlign = "right";
-	this.text_4.lineHeight = 33;
+	this.text_4.lineHeight = 29;
 	this.text_4.lineWidth = 140;
 	this.text_4.parent = this;
 	this.text_4.setTransform(1168.7,269.35);
 
-	this.text_5 = new cjs.Text(":סוגים", "24px 'Varela Round'", "#57274A");
+	this.text_5 = new cjs.Text(":סוגים", "24px 'Arial'", "#57274A");
 	this.text_5.textAlign = "right";
-	this.text_5.lineHeight = 33;
+	this.text_5.lineHeight = 29;
 	this.text_5.lineWidth = 61;
 	this.text_5.parent = this;
 	this.text_5.setTransform(1168.7,212.9);
 
-	this.text_6 = new cjs.Text("אירוס- הרחבה", "28px 'Varela Round'", "#FFFFFF");
+	this.text_6 = new cjs.Text("אירוס- הרחבה", "28px 'Arial'", "#FFFFFF");
 	this.text_6.textAlign = "right";
-	this.text_6.lineHeight = 39;
+	this.text_6.lineHeight = 33;
 	this.text_6.lineWidth = 207;
 	this.text_6.parent = this;
 	this.text_6.setTransform(1178.95,80.8);
@@ -3175,7 +3177,7 @@ if (reversed == null) { reversed = false; }
 	this.clsIris2.setTransform(101.3,104,1,1,0,0,0,16.1,19.1);
 	new cjs.ButtonHelper(this.clsIris2, 0, 1, 1);
 
-	this.instance_1 = new lib.CachedBmp_503();
+	this.instance_1 = new lib.CachedBmp_69();
 	this.instance_1.setTransform(0,0,0.5,0.5);
 
 	this.instance_2 = new lib.CachedBmp_86();
@@ -3190,7 +3192,7 @@ if (reversed == null) { reversed = false; }
 	this.clshyacinth2.setTransform(101.3,104,1,1,0,0,0,16.1,19.1);
 	new cjs.ButtonHelper(this.clshyacinth2, 0, 1, 1);
 
-	this.instance_4 = new lib.CachedBmp_504();
+	this.instance_4 = new lib.CachedBmp_71();
 	this.instance_4.setTransform(0,0,0.5,0.5);
 
 	this.instance_5 = new lib.carnationMain();
@@ -3203,7 +3205,7 @@ if (reversed == null) { reversed = false; }
 	this.clsCarnation2.setTransform(101.3,104,1,1,0,0,0,16.1,19.1);
 	new cjs.ButtonHelper(this.clsCarnation2, 0, 1, 1);
 
-	this.instance_6 = new lib.CachedBmp_505();
+	this.instance_6 = new lib.CachedBmp_73();
 	this.instance_6.setTransform(0,0,0.5,0.5);
 
 	this.instance_7 = new lib.pansyMain();
@@ -3216,7 +3218,7 @@ if (reversed == null) { reversed = false; }
 	this.clsPansyAT2.setTransform(101.3,104,1,1,0,0,0,16.1,19.1);
 	new cjs.ButtonHelper(this.clsPansyAT2, 0, 1, 1);
 
-	this.instance_8 = new lib.CachedBmp_506();
+	this.instance_8 = new lib.CachedBmp_75();
 	this.instance_8.setTransform(0,0,0.5,0.5);
 
 	this.instance_9 = new lib.dahliaMain();
@@ -3228,7 +3230,7 @@ if (reversed == null) { reversed = false; }
 	this.clsDahlia2.setTransform(101.3,104,1,1,0,0,0,16.1,19.1);
 	new cjs.ButtonHelper(this.clsDahlia2, 0, 1, 1);
 
-	this.instance_10 = new lib.CachedBmp_507();
+	this.instance_10 = new lib.CachedBmp_77();
 	this.instance_10.setTransform(0,0,0.5,0.5);
 
 	this.instance_11 = new lib.jasmineMain();
@@ -3240,7 +3242,7 @@ if (reversed == null) { reversed = false; }
 	this.clsJasmin2.setTransform(101.3,104,1,1,0,0,0,16.1,19.1);
 	new cjs.ButtonHelper(this.clsJasmin2, 0, 1, 1);
 
-	this.instance_12 = new lib.CachedBmp_508();
+	this.instance_12 = new lib.CachedBmp_79();
 	this.instance_12.setTransform(0,0,0.5,0.5);
 
 	this.instance_13 = new lib.lilachMain();
@@ -3252,7 +3254,7 @@ if (reversed == null) { reversed = false; }
 	this.clslilach2.setTransform(101.3,104,1,1,0,0,0,16.1,19.1);
 	new cjs.ButtonHelper(this.clslilach2, 0, 1, 1);
 
-	this.instance_14 = new lib.CachedBmp_509();
+	this.instance_14 = new lib.CachedBmp_81();
 	this.instance_14.setTransform(0,0,0.5,0.5);
 
 	this.instance_15 = new lib.mallisaMain();
@@ -3264,7 +3266,7 @@ if (reversed == null) { reversed = false; }
 	this.clsMallisa2.setTransform(101.3,104,1,1,0,0,0,16.1,19.1);
 	new cjs.ButtonHelper(this.clsMallisa2, 0, 1, 1);
 
-	this.instance_16 = new lib.CachedBmp_510();
+	this.instance_16 = new lib.CachedBmp_83();
 	this.instance_16.setTransform(0,0,0.5,0.5);
 
 	this.instance_17 = new lib.geraniumMain();
@@ -3276,7 +3278,7 @@ if (reversed == null) { reversed = false; }
 	this.clsGeranium2.setTransform(101.3,104,1,1,0,0,0,16.1,19.1);
 	new cjs.ButtonHelper(this.clsGeranium2, 0, 1, 1);
 
-	this.instance_18 = new lib.CachedBmp_511();
+	this.instance_18 = new lib.CachedBmp_85();
 	this.instance_18.setTransform(0,0,0.5,0.5);
 
 	this.instance_19 = new lib.lavenderMain();
@@ -3288,7 +3290,7 @@ if (reversed == null) { reversed = false; }
 	this.clsLavender2.setTransform(101.3,104,1,1,0,0,0,16.1,19.1);
 	new cjs.ButtonHelper(this.clsLavender2, 0, 1, 1);
 
-	this.instance_20 = new lib.CachedBmp_512();
+	this.instance_20 = new lib.CachedBmp_87();
 	this.instance_20.setTransform(0,0,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_2},{t:this.instance_1},{t:this.clsIris2},{t:this.text_6,p:{text:"אירוס- הרחבה",color:"#FFFFFF",lineWidth:207}},{t:this.text_5,p:{color:"#57274A"}},{t:this.text_4,p:{color:"#57274A"}},{t:this.text_3,p:{color:"#57274A"}},{t:this.text_2,p:{text:".קיימים מעל ל-300 מינים של אירוסים"}},{t:this.text_1,p:{text:".מתחיל לאחר 3-4 חודשים מהזריעה"}},{t:this.text,p:{text:"  מומלץ להשתמש בפקעות של אירוסים ולא בזרעים. את הפקעות יש להשרות במים למשך זמן של בין יומיים לשבועיים טרם השתילה, ולאחר מכן לשתול באדנית מלאה בתערובת זבל אורגני עשיר או באדמה. יש לדשן בדשן אורגני המשחרר בהדרגה חומרים לאדמה,לערבב את הדשן היטב עם האדמה. מומלץ לשתול את הפקעות במרחק של 25 ס\"מ זו מזו .ולוודא כי שורשי הפרח מכוסים באדמה לגמרי",lineWidth:897}},{t:this.instance}]}).to({state:[{t:this.instance_2},{t:this.instance_4},{t:this.clshyacinth2},{t:this.text_6,p:{text:"יקינתון- הרחבה",color:"#FFFFFF",lineWidth:207}},{t:this.text_5,p:{color:"#005500"}},{t:this.text_4,p:{color:"#005500"}},{t:this.text_3,p:{color:"#005500"}},{t:this.text_2,p:{text:".משפחת השושניים. במשפחה 70 סוגים ולמעלה מ-1000 מינים"}},{t:this.text_1,p:{text:".מתחיל כ3 שבועות לאחר הזריעה"}},{t:this.text,p:{text:"מומלץ לשתול במרווח של 10 ס\"מ בין הפקעות. יש לאחסן אותן במקרר למשך 4-6 שבועות טרם שתילתם. ניתן לשתול בצנצנת בה שורשיו של היקינתון טבולים במים והפקעת מונחת מעל פניהן. יש לאכסנו בתוך שקית נייר ולשים במגירת .הירקות של המקרר למשך 4-6 שבועות לפני השתילה  ",lineWidth:897}},{t:this.instance_3}]},1).to({state:[{t:this.instance_2},{t:this.instance_6},{t:this.clsCarnation2},{t:this.text_6,p:{text:"ציפורן- הרחבה",color:"#FFFFFF",lineWidth:207}},{t:this.text_5,p:{color:"#B72936"}},{t:this.text_4,p:{color:"#B72936"}},{t:this.text_3,p:{color:"#B72936"}},{t:this.text_2,p:{text:".משפחת הציפורניים. מעל 80 סוגים וכ2000 מינים נפוצים"}},{t:this.text_1,p:{text:".בין 5-7 ימים מרגע הזריעה"}},{t:this.text,p:{text:"את זרעי הציפורן יש לשתול באדמה מעורבבת היטב עם זבל אורגני. הציפורן זקוק לאדמה לחה אך לא ספוגה במים, לכן יש לוודא שישנם חורי ניקוז באדניות שיאפשרו למים להתנקז בקלות. את הזרעים יש להניח מעט מתחת לפני האדמה ולהקפיד על מרווח של 30 ס\"מ בין פרח לפרח. הציפורן עמיד למרבית המחלות ואין צורך לטפל בו ולדשן אותו לעיתים .קרובות, על כן הוא נוח לגידול ביתי",lineWidth:897}},{t:this.instance_5}]},1).to({state:[{t:this.instance_2},{t:this.instance_8},{t:this.clsPansyAT2},{t:this.text_6,p:{text:"אמנון ותמר- הרחבה",color:"#C9CDE9",lineWidth:250}},{t:this.text_5,p:{color:"#363570"}},{t:this.text_4,p:{color:"#363570"}},{t:this.text_3,p:{color:"#363570"}},{t:this.text_2,p:{text:".משפחת הסיגליים, כולל כ-300 מינים"}},{t:this.text_1,p:{text:".שתילה בסתיו תניב 2 מחזורי פריחה: לפני החורף ובתחילת האביב"}},{t:this.text,p:{text:"במידה ושותלים את הצמח באדמה, יש לשתול את הצמחים במרווחים של כ 20 ס\"מ, בקרקע מאווררת ומנוקזת היטב. .גיזום עלים נכון -להוריד את העלה מבסיס העלה מבלי לפגוע בענפים עם ניצנים",lineWidth:897}},{t:this.instance_7}]},1).to({state:[{t:this.instance_2},{t:this.instance_10},{t:this.clsDahlia2},{t:this.text_6,p:{text:"דליה- הרחבה",color:"#FFFFFF",lineWidth:207}},{t:this.text_5,p:{color:"#BC4788"}},{t:this.text_4,p:{color:"#BC4788"}},{t:this.text_3,p:{color:"#BC4788"}},{t:this.text_2,p:{text:".משפחת המורכבים הכוללת 30 מינים וכ20,000 זנים שונים"}},{t:this.text_1,p:{text:".מתחיל כ5-10 ימים בלבד לאחר הזריעה"}},{t:this.text,p:{text:"יש לבחור אזור מואר ומוגן מפני רוח. יש להניח את זרעי הדליה באדמה לחה- חשוב שהמים יוכלו להתנקז בה היטב מומלץ להוסיף דשן מסביב לזרעים ולשמור על מרווח של 20-30 ס\"מ בין פרח לפרח. לאחר שהפרחים מתחילים לפרוח, יש לדשן את האדמה בדשן נוזלי עם כמות נמוכה של חנקן כל 3-4 שבועות. ",lineWidth:897}},{t:this.instance_9}]},1).to({state:[{t:this.instance_2},{t:this.instance_12},{t:this.clsJasmin2},{t:this.text_6,p:{text:"יסמין- הרחבה",color:"#F8FAFA",lineWidth:207}},{t:this.text_5,p:{color:"#667E78"}},{t:this.text_4,p:{color:"#667E78"}},{t:this.text_3,p:{color:"#667E78"}},{t:this.text_2,p:{text:".משפחת הזיתיים המונה כ200 מינים"}},{t:this.text_1,p:{text:".מתחיל לאחר 30-60 ימים מהזריעה"}},{t:this.text,p:{text:"האפשרות הראשונה היא גידול זרעים- יש לכסות באדמה עם הרבה דשן ולהניח על אדן החלון או באזור מואר חלקית בגינה. האפשרות השנייה והמומלצת יותר היא להשתמש בענף של יסמין בוגר באורך של כ-15 ס\"מ- יש לשתול אותן .באדנית בתוך הבית ובתחילת הקיץ, כאשר הפרחים יחלו לפרוח, יש להעביר אותם למרפסת או לגינה",lineWidth:897}},{t:this.instance_11}]},1).to({state:[{t:this.instance_2},{t:this.instance_14},{t:this.clslilach2},{t:this.text_6,p:{text:"לילך- הרחבה",color:"#FFFFFF",lineWidth:207}},{t:this.text_5,p:{color:"#A82E88"}},{t:this.text_4,p:{color:"#A82E88"}},{t:this.text_3,p:{color:"#A82E88"}},{t:this.text_2,p:{text:".משפחת הזיתיים הכוללת 20 מינים"}},{t:this.text_1,p:{text:".מתחיל לאחר 60-90 ימים מהזריעה"}},{t:this.text,p:{text:"את הלילך לא מומלץ לגדל מזרעים, יקח להם בין 3 ל4 שנים להתחיל לפרוח. מומלץ לקנות שיח קטן ולשתול אותו בעציץ או בגינה. חשוב לדשן בזבל אורגני את אזור שורשי הצמח כאשר שותלים אותו. מומלץ לשמור על מרחק של מטר בין .שיח לילך אחד לאחר, ולדשן את אדמתם רק בתחילת האביב. אין צורך לדשן בשאר השנה",lineWidth:897}},{t:this.instance_13}]},1).to({state:[{t:this.instance_2},{t:this.instance_16},{t:this.clsMallisa2},{t:this.text_6,p:{text:" מליסה- הרחבה",color:"#FFFFFF",lineWidth:207}},{t:this.text_5,p:{color:"#57AD2D"}},{t:this.text_4,p:{color:"#57AD2D"}},{t:this.text_3,p:{color:"#57AD2D"}},{t:this.text_2,p:{text:".משפחת השפתניים הכוללת 5 מינים"}},{t:this.text_1,p:{text:".מתחיל לאחר 2-5 שבועות מהזריעה"}},{t:this.text,p:{text:"לצמח זרעים קטנים הקלים לגידול. המרחק המומלץ בין הזרעים בעת שתילה-40 ס\"מ, בעומק 0.3 ס\"מ במקום מוצל .ולח",lineWidth:897}},{t:this.instance_15}]},1).to({state:[{t:this.instance_2},{t:this.instance_18},{t:this.clsGeranium2},{t:this.text_6,p:{text:"גרניום- הרחבה",color:"#FFFFFF",lineWidth:207}},{t:this.text_5,p:{color:"#F25ECA"}},{t:this.text_4,p:{color:"#F25ECA"}},{t:this.text_3,p:{color:"#F25ECA"}},{t:this.text_2,p:{text:".משפחת הגרניים הכוללת כ850 מינים שונים"}},{t:this.text_1,p:{text:".מתחיל בין שבוע לשבועיים אחרי הזריעה"}},{t:this.text,p:{text:"ניתן לשתול באדנית קטנות או אדניות עמוקות יותר. אפשר גם בין ערוגות הגינה ומסלעות. מומלץ לשתול במרווחים של 30 ס\"מ זה מזה. ניקיון גבעולים ועלים יבשים יעודד התחדשות ומשך פריחה ארוך. דישון אחת לשבועיים ישפר ויעצים את .יופיו וחשיפה מרובה לשמש תעודד את צמיחת הפרחים. הפרח דורש גיזום מגובהו מפעם לפעם ",lineWidth:888}},{t:this.instance_17}]},1).to({state:[{t:this.instance_2},{t:this.instance_20},{t:this.clsLavender2},{t:this.text_6,p:{text:"לבנדר- הרחבה",color:"#FFFFFF",lineWidth:207}},{t:this.text_5,p:{color:"#69539C"}},{t:this.text_4,p:{color:"#69539C"}},{t:this.text_3,p:{color:"#69539C"}},{t:this.text_2,p:{text:".משפחת הגרניים הכוללת כ850 מינים שונים"}},{t:this.text_1,p:{text:".מתחיל בין שבוע לשבועיים אחרי הזריעה"}},{t:this.text,p:{text:": יש לשתול במצע אדמה אוורירי ומנוקז. חשוב לשמור על מצע האדמה לח עד יבש ולא רטוב. דישון אחת לשבועיים .יגביר את קצב הצמיחה ויעצים את יופיו של הצמח",lineWidth:897}},{t:this.instance_19}]},1).wait(1));
@@ -3321,7 +3323,7 @@ if (reversed == null) { reversed = false; }
 
 	// rose
 	this.instance = new lib.roseMain();
-	this.instance.setTransform(59.2,75.1,1,1,0,0,0,53.8,68.3);
+	this.instance.setTransform(59.2,75,1,1,0,0,0,53.8,68.2);
 
 	this.instance_1 = new lib.roseGray();
 	this.instance_1.setTransform(59.6,75,1,1,0,0,0,53.9,68.2);
@@ -3453,7 +3455,7 @@ if (reversed == null) { reversed = false; }
 
 	// lilach
 	this.instance = new lib.CachedBmp_55();
-	this.instance.setTransform(2.65,3.55,0.5,0.5);
+	this.instance.setTransform(2.6,3.65,0.5,0.5);
 
 	this.instance_1 = new lib.lilachGray();
 	this.instance_1.setTransform(57.95,65.85,1,1,0,0,0,54.6,63.1);
@@ -3855,7 +3857,7 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_1
 	this.instance = new lib.Group();
-	this.instance.setTransform(305.35,251.05,1,1,0,0,0,305.3,251);
+	this.instance.setTransform(305.25,251.05,1,1,0,0,0,305.2,251);
 	this.instance.alpha = 0.1992;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -3905,114 +3907,114 @@ if (reversed == null) { reversed = false; }
 	this.moreIris.setTransform(162.9,623.6,1,1,0,0,0,71.1,17.7);
 	new cjs.ButtonHelper(this.moreIris, 0, 1, 1);
 
-	this.text = new cjs.Text(".נבולים השקו מעט יותר ", "18px 'Varela Round'");
+	this.text = new cjs.Text(".נבולים השקו מעט יותר ", "18px 'Arial'");
 	this.text.textAlign = "right";
-	this.text.lineHeight = 26;
+	this.text.lineHeight = 22;
 	this.text.lineWidth = 965;
 	this.text.parent = this;
 	this.text.setTransform(1206.95,588.8);
 
-	this.text_1 = new cjs.Text("מומלץ להשקות אחת לשבוע בשעות הבוקר, ב-2-3 ס\"מ של מים. אם העלים נראים", "18px 'Varela Round'");
+	this.text_1 = new cjs.Text("מומלץ להשקות אחת לשבוע בשעות הבוקר, ב-2-3 ס\"מ של מים. אם העלים נראים", "18px 'Arial'");
 	this.text_1.textAlign = "right";
-	this.text_1.lineHeight = 26;
+	this.text_1.lineHeight = 22;
 	this.text_1.lineWidth = 989;
 	this.text_1.parent = this;
 	this.text_1.setTransform(1053.8,551.05);
 
-	this.text_2 = new cjs.Text(".האירוס הוא פרח רב שנתי, עמיד לקור, יפה במיוחד ונוח לגידול ביתי", "18px 'Varela Round'");
+	this.text_2 = new cjs.Text(".האירוס הוא פרח רב שנתי, עמיד לקור, יפה במיוחד ונוח לגידול ביתי", "18px 'Arial'");
 	this.text_2.textAlign = "right";
-	this.text_2.lineHeight = 26;
+	this.text_2.lineHeight = 22;
 	this.text_2.lineWidth = 687;
 	this.text_2.parent = this;
 	this.text_2.setTransform(1206.95,165);
 
-	this.text_3 = new cjs.Text(".מתרומם לגובה של 20-40 ס\"מ, בראשו פרח בודד וקוטרו כ8 ס\"מ", "18px 'Varela Round'");
+	this.text_3 = new cjs.Text(".מתרומם לגובה של 20-40 ס\"מ, בראשו פרח בודד וקוטרו כ8 ס\"מ", "18px 'Arial'");
 	this.text_3.textAlign = "right";
-	this.text_3.lineHeight = 26;
+	this.text_3.lineHeight = 22;
 	this.text_3.lineWidth = 862;
 	this.text_3.parent = this;
 	this.text_3.setTransform(1148.85,438);
 
-	this.text_4 = new cjs.Text(".חשיפה חלקית לשמש, רצוי שישהה בה כחצי יום", "18px 'Varela Round'");
+	this.text_4 = new cjs.Text(".חשיפה חלקית לשמש, רצוי שישהה בה כחצי יום", "18px 'Arial'");
 	this.text_4.textAlign = "right";
-	this.text_4.lineHeight = 26;
+	this.text_4.lineHeight = 22;
 	this.text_4.lineWidth = 803;
 	this.text_4.parent = this;
 	this.text_4.setTransform(1088.85,495.05);
 
-	this.text_5 = new cjs.Text(".פורח בחורף בפברואר", "18px 'Varela Round'");
+	this.text_5 = new cjs.Text(".פורח בחורף בפברואר", "18px 'Arial'");
 	this.text_5.textAlign = "right";
-	this.text_5.lineHeight = 26;
+	this.text_5.lineHeight = 22;
 	this.text_5.lineWidth = 789;
 	this.text_5.parent = this;
 	this.text_5.setTransform(1075.85,382);
 
-	this.text_6 = new cjs.Text(".בין הסתיו לתחילת האביב", "18px 'Varela Round'");
+	this.text_6 = new cjs.Text(".בין הסתיו לתחילת האביב", "18px 'Arial'");
 	this.text_6.textAlign = "right";
-	this.text_6.lineHeight = 26;
+	this.text_6.lineHeight = 22;
 	this.text_6.lineWidth = 794;
 	this.text_6.parent = this;
 	this.text_6.setTransform(1080.85,324.05);
 
-	this.text_7 = new cjs.Text(".מתאים לגינה. ניתן לגדלו גם באדנית ", "18px 'Varela Round'");
+	this.text_7 = new cjs.Text(".מתאים לגינה. ניתן לגדלו גם באדנית ", "18px 'Arial'");
 	this.text_7.textAlign = "right";
-	this.text_7.lineHeight = 26;
+	this.text_7.lineHeight = 22;
 	this.text_7.lineWidth = 766;
 	this.text_7.parent = this;
 	this.text_7.setTransform(1052.8,270);
 
-	this.text_8 = new cjs.Text(".מגוון רחב של צבעים מלבן ועד ארגמן מעורב בשחור", "18px 'Varela Round'");
+	this.text_8 = new cjs.Text(".מגוון רחב של צבעים מלבן ועד ארגמן מעורב בשחור", "18px 'Arial'");
 	this.text_8.textAlign = "right";
-	this.text_8.lineHeight = 26;
+	this.text_8.lineHeight = 22;
 	this.text_8.lineWidth = 866;
 	this.text_8.parent = this;
 	this.text_8.setTransform(1152.85,214);
 
-	this.text_9 = new cjs.Text(":כיצד להשקות", "24px 'Varela Round'", "#642955");
+	this.text_9 = new cjs.Text(":כיצד להשקות", "24px 'Arial'", "#642955");
 	this.text_9.textAlign = "right";
-	this.text_9.lineHeight = 33;
+	this.text_9.lineHeight = 29;
 	this.text_9.lineWidth = 149;
 	this.text_9.parent = this;
 	this.text_9.setTransform(1206.95,548.1);
 
-	this.text_10 = new cjs.Text(":כמה שמש", "24px 'Varela Round'", "#642955");
+	this.text_10 = new cjs.Text(":כמה שמש", "24px 'Arial'", "#642955");
 	this.text_10.textAlign = "right";
-	this.text_10.lineHeight = 33;
+	this.text_10.lineHeight = 29;
 	this.text_10.lineWidth = 114;
 	this.text_10.parent = this;
 	this.text_10.setTransform(1206.95,491.65);
 
-	this.text_11 = new cjs.Text(":גובה", "24px 'Varela Round'", "#642955");
+	this.text_11 = new cjs.Text(":גובה", "24px 'Arial'", "#642955");
 	this.text_11.textAlign = "right";
-	this.text_11.lineHeight = 33;
+	this.text_11.lineHeight = 29;
 	this.text_11.lineWidth = 54;
 	this.text_11.parent = this;
 	this.text_11.setTransform(1206.95,435.2);
 
-	this.text_12 = new cjs.Text(":עונת פריחה", "24px 'Varela Round'", "#642955");
+	this.text_12 = new cjs.Text(":עונת פריחה", "24px 'Arial'", "#642955");
 	this.text_12.textAlign = "right";
-	this.text_12.lineHeight = 33;
+	this.text_12.lineHeight = 29;
 	this.text_12.lineWidth = 127;
 	this.text_12.parent = this;
 	this.text_12.setTransform(1206.95,378.75);
 
-	this.text_13 = new cjs.Text(":מתי לשתול", "24px 'Varela Round'", "#642955");
+	this.text_13 = new cjs.Text(":מתי לשתול", "24px 'Arial'", "#642955");
 	this.text_13.textAlign = "right";
-	this.text_13.lineHeight = 33;
+	this.text_13.lineHeight = 29;
 	this.text_13.lineWidth = 122;
 	this.text_13.parent = this;
 	this.text_13.setTransform(1206.95,320.35);
 
-	this.text_14 = new cjs.Text(":היכן ניתן לגדל", "24px 'Varela Round'", "#642955");
+	this.text_14 = new cjs.Text(":היכן ניתן לגדל", "24px 'Arial'", "#642955");
 	this.text_14.textAlign = "right";
-	this.text_14.lineHeight = 33;
+	this.text_14.lineHeight = 29;
 	this.text_14.lineWidth = 149;
 	this.text_14.parent = this;
 	this.text_14.setTransform(1206.95,266);
 
-	this.text_15 = new cjs.Text(":צבע", "24px 'Varela Round'", "#642955");
+	this.text_15 = new cjs.Text(":צבע", "24px 'Arial'", "#642955");
 	this.text_15.textAlign = "right";
-	this.text_15.lineHeight = 33;
+	this.text_15.lineHeight = 29;
 	this.text_15.lineWidth = 51;
 	this.text_15.parent = this;
 	this.text_15.setTransform(1206.95,209.55);
@@ -4062,12 +4064,12 @@ if (reversed == null) { reversed = false; }
 	this.moreLavender.setTransform(162.9,623.6,1,1,0,0,0,71.1,17.7);
 	new cjs.ButtonHelper(this.moreLavender, 0, 1, 1);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.text_15,p:{color:"#642955"}},{t:this.text_14,p:{color:"#642955"}},{t:this.text_13,p:{color:"#642955"}},{t:this.text_12,p:{color:"#642955"}},{t:this.text_11,p:{color:"#642955"}},{t:this.text_10,p:{color:"#642955"}},{t:this.text_9,p:{color:"#642955"}},{t:this.text_8,p:{text:".מגוון רחב של צבעים מלבן ועד ארגמן מעורב בשחור"}},{t:this.text_7,p:{text:".מתאים לגינה. ניתן לגדלו גם באדנית "}},{t:this.text_6,p:{text:".בין הסתיו לתחילת האביב"}},{t:this.text_5,p:{text:".פורח בחורף בפברואר"}},{t:this.text_4,p:{text:".חשיפה חלקית לשמש, רצוי שישהה בה כחצי יום"}},{t:this.text_3,p:{text:".מתרומם לגובה של 20-40 ס\"מ, בראשו פרח בודד וקוטרו כ8 ס\"מ"}},{t:this.text_2,p:{text:".האירוס הוא פרח רב שנתי, עמיד לקור, יפה במיוחד ונוח לגידול ביתי",lineWidth:687,x:1206.95,y:165}},{t:this.text_1,p:{text:"מומלץ להשקות אחת לשבוע בשעות הבוקר, ב-2-3 ס\"מ של מים. אם העלים נראים",x:1053.8,y:551.05,lineWidth:989}},{t:this.text,p:{text:".נבולים השקו מעט יותר ",font:"18px 'Varela Round'",lineHeight:25.6,x:1206.95,y:588.8,lineWidth:965}},{t:this.moreIris}]}).to({state:[{t:this.text_15,p:{color:"#005500"}},{t:this.text_14,p:{color:"#005500"}},{t:this.text_13,p:{color:"#005500"}},{t:this.text_12,p:{color:"#005500"}},{t:this.text_11,p:{color:"#005500"}},{t:this.text_10,p:{color:"#005500"}},{t:this.text_9,p:{color:"#005500"}},{t:this.text_8,p:{text:".ורוד, כחול, לבן, צהוב ואדום"}},{t:this.text_7,p:{text:".באדנית או בגינה"}},{t:this.text_6,p:{text:".אוקטובר עד דצמבר"}},{t:this.text_5,p:{text:".חודשי החורף והאביב, מרס-אפריל"}},{t:this.text_4,p:{text:".ללא חשיפה ישירה לשמש, יש להניח בצל"}},{t:this.text_3,p:{text:"כ-20 ס״מ"}},{t:this.text_2,p:{text:"פרח מרהיב בעל ניחוח עז ונפלא. הפרחים צפופים בצורת כוכבים הממוקמים בראש הגבעול",lineWidth:687,x:1206.95,y:165}},{t:this.text_1,p:{text:".יש להשקות את הבצלים מיד לאחר השתילה ובקביעות, כך שהקרקע תישמר לחה עד תחילת הגשמים",x:1053.8,y:551.05,lineWidth:989}},{t:this.text,p:{text:".חיפוי הקרקע יאריך את משך הפריחה ויקל על הטיפול בצמח",font:"18px 'Varela Round'",lineHeight:25.6,x:1206.95,y:588.8,lineWidth:965}},{t:this.moreHyacinth}]},1).to({state:[{t:this.text_15,p:{color:"#A31E29"}},{t:this.text_14,p:{color:"#A31E29"}},{t:this.text_13,p:{color:"#A31E29"}},{t:this.text_12,p:{color:"#A31E29"}},{t:this.text_11,p:{color:"#A31E29"}},{t:this.text_10,p:{color:"#A31E29"}},{t:this.text_9,p:{color:"#A31E29"}},{t:this.text_8,p:{text:".סגול או ורוד"}},{t:this.text_7,p:{text:".מומלץ באדנית או במיכל גדול"}},{t:this.text_6,p:{text:".בחורף"}},{t:this.text_5,p:{text:".קיץ ואביב"}},{t:this.text_4,p:{text:".שמש ישירה או הצללה חלקית"}},{t:this.text_3,p:{text:".20-60 ס\"מ"}},{t:this.text_2,p:{text:".הציפורן הינו צמח נוי ארומטי בעל פרחים גדולים המפיצים את ריחם הנעים למרחקים",lineWidth:687,x:1206.95,y:165}},{t:this.text_1,p:{text:".זקוק להשקיה מרובה, כ4 פעמים בשבוע",x:1053.8,y:551.05,lineWidth:989}},{t:this.text,p:{text:"",font:"18px 'VarelaRound-Regular'",lineHeight:25.6,x:1206.95,y:588.8,lineWidth:965}},{t:this.moreCarnation}]},1).to({state:[{t:this.text_15,p:{color:"#614694"}},{t:this.text_14,p:{color:"#614694"}},{t:this.text_13,p:{color:"#614694"}},{t:this.text_12,p:{color:"#614694"}},{t:this.text_11,p:{color:"#614694"}},{t:this.text_10,p:{color:"#614694"}},{t:this.text_9,p:{color:"#614694"}},{t:this.text_8,p:{text:".לבן, צהוב, כתום, אדום, בורדו, ורוד, סגול בהיר לילך, סגול כהה, כחול ועוד"}},{t:this.text_7,p:{text:".בגינה, באדניות ובמכלי עציץ קטנים"}},{t:this.text_6,p:{text:".בסתיו"}},{t:this.text_5,p:{text:".בחורף"}},{t:this.text_4,p:{text:".ישירה או הצללה חלקית"}},{t:this.text_3,p:{text:".15-20 ס\"מ"}},{t:this.text_2,p:{text:".פרחי נוי המופעים בשלל צבעים וגדלים. צמח קל לגידול ולכן ניתן למצוא אותו לצידי שבילים ברחוב, בגינות פרטיות, ובאדניות",lineWidth:949,x:1206.95,y:165}},{t:this.text_1,p:{text:".השקיה בינונית עד נמוכה, ההשקיה היעילה ביותר תתבצע באמצעות טפופות",x:1053.8,y:551.05,lineWidth:989}},{t:this.text,p:{text:"",font:"24px 'VarelaRound-Regular'",lineHeight:33.45,x:1206.95,y:588.8,lineWidth:965}},{t:this.morePansyAT}]},1).to({state:[{t:this.text_15,p:{color:"#BC4788"}},{t:this.text_14,p:{color:"#BC4788"}},{t:this.text_13,p:{color:"#BC4788"}},{t:this.text_12,p:{color:"#BC4788"}},{t:this.text_11,p:{color:"#BC4788"}},{t:this.text_10,p:{color:"#BC4788"}},{t:this.text_9,p:{color:"#BC4788"}},{t:this.text_8,p:{text:".ורוד, לבן, אדום, סגול ועוד"}},{t:this.text_7,p:{text:".מומלץ בגינה או בעציצם בינוניים בבית"}},{t:this.text_6,p:{text:".באביב ובתחילת הקיץ"}},{t:this.text_5,p:{text:".אביב וסתיו"}},{t:this.text_4,p:{text:".חשיפה מלאה"}},{t:this.text_3,p:{text:".נישא לגובה של כ-40 ס\"מ קיימים זנים שקוטר הפרח שלהם מגיע ל-20 ס\"מ"}},{t:this.text_2,p:{text:".דליה היא סוג של פרח רב-שנתי שמקורו במקסיקו, והיא משמשת גם כפרח הלאומי של המדינה. חלק מזני הדליה הם אכילים",lineWidth:949,x:1206.95,y:165}},{t:this.text_1,p:{text:"הדליה זקוקה לאדמה לחה, אך היא עלולה להירקב באדמה הספוגה במים, לכן מומלץ להשקות אותה באמצעות טפטפות ולא ",x:1053.8,y:551.05,lineWidth:989}},{t:this.text,p:{text:"ולא בהשקיה ידנית. על ההשקיה להמשך כחצי שעה בכל פעם, 2-3 פעמים בשבוע",font:"18px 'Varela Round'",lineHeight:25.6,x:1206.95,y:588.8,lineWidth:965}},{t:this.moreDahlia}]},1).to({state:[{t:this.text_15,p:{color:"#000000"}},{t:this.text_14,p:{color:"#000000"}},{t:this.text_13,p:{color:"#000000"}},{t:this.text_12,p:{color:"#000000"}},{t:this.text_11,p:{color:"#000000"}},{t:this.text_10,p:{color:"#000000"}},{t:this.text_9,p:{color:"#000000"}},{t:this.text_8,p:{text:".לבן וצהוב"}},{t:this.text_7,p:{text:".מתאים לגידול בבית בעציץ או לשתילה בגינה"}},{t:this.text_6,p:{text:".בין סוף הסתיו לתחילת האביב"}},{t:this.text_5,p:{text:".רוב השנה, בעיקר בקיץ"}},{t:this.text_4,p:{text:".שמש חלקית"}},{t:this.text_3,p:{text:".10 מ', צמח מטפס"}},{t:this.text_2,p:{text:".פרח בעל ניחוח נפלא אשר ידוע ביתרונותיו הבריאותיים הרבים. היסמין מרגיע את העצבים, מגביר את החשק המיני ואף עוזר להילחם בסרטן ",lineWidth:1052,x:1206.95,y:165}},{t:this.text_1,p:{text:"חשוב שהאדמה שלא תהיה ספוגה במים. רצוי להשקות אותו 2-3 פעמים בשבוע במהלך הקיץ. בחורף מומלץ להשקות לפי הצורך, ",x:1053.8,y:551.05,lineWidth:989}},{t:this.text,p:{text:"לגעת באדמה בסביבת הפרח ולהשקות רק כשהיא יבשה.",font:"18px 'Varela Round'",lineHeight:25.6,x:1206.95,y:588.8,lineWidth:965}},{t:this.moreJasmine}]},1).to({state:[{t:this.text_15,p:{color:"#BE4B6C"}},{t:this.text_14,p:{color:"#BE4B6C"}},{t:this.text_13,p:{color:"#BE4B6C"}},{t:this.text_12,p:{color:"#BE4B6C"}},{t:this.text_11,p:{color:"#BE4B6C"}},{t:this.text_10,p:{color:"#BE4B6C"}},{t:this.text_9,p:{color:"#BE4B6C"}},{t:this.text_8,p:{text:". לבן, סגול בהיר וסגול כהה"}},{t:this.text_7,p:{text:".בעציץ או בגינה"}},{t:this.text_6,p:{text:".קיץ ואביב"}},{t:this.text_5,p:{text:".רוב השנה, בעיקר בקיץ"}},{t:this.text_4,p:{text:".שמש חלקית עד מלאה בהתאם למין הפרח"}},{t:this.text_3,p:{text:".ודלם של צמחים אלו נע בין שיחים גדולים לעצים קטנים (2-10 מטר)"}},{t:this.text_2,p:{text:".הלילך הוא צמח בעל פרחים בצבעי סגול או לבן שמזכירים בצורתם לב. פרח ושיח הלילך יכול לפרוח ולחיות שנים רבות",lineWidth:949,x:1206.95,y:165}},{t:this.text_1,p:{text:"זקוק לאדמה לחה, אך לא ספוגה במים. מומלץ להשקות ביסודיות אחת לשבוע. במקרה שהאדמה נראית יבשה או ספוגה במים, יש ",x:1053.8,y:551.05,lineWidth:989}},{t:this.text,p:{text:"לשנות את תדירות ההשקיה בהתאם.",font:"18px 'Varela Round'",lineHeight:25.6,x:1206.95,y:588.8,lineWidth:965}},{t:this.moreLilach}]},1).to({state:[{t:this.text_15,p:{color:"#53AC2C"}},{t:this.text_14,p:{color:"#53AC2C"}},{t:this.text_13,p:{color:"#53AC2C"}},{t:this.text_12,p:{color:"#53AC2C"}},{t:this.text_11,p:{color:"#53AC2C"}},{t:this.text_10,p:{color:"#53AC2C"}},{t:this.text_9,p:{color:"#53AC2C"}},{t:this.text_8,p:{text:".לבן ולילך וירוק"}},{t:this.text_7,p:{text:".    מתאים לגידול ביתי בעציץ וגידול בגינה"}},{t:this.text_6,p:{text:".בעונות האביב והסתיו"}},{t:this.text_5,p:{text:".בעונות האביב והקיץ"}},{t:this.text_4,p:{text:" .שמש חלקית"}},{t:this.text_3,p:{text:".צמח זקוף ומסתעף, גובהו 70 ס\"מ ויותר"}},{t:this.text_2,p:{text:".צמח המתאפיין בריחו הלימוני ומשמש כצמח מרפא. המליסה מסייעת בטיפול במגוון מצבים רפואיים כגון איזון פעילות של בלוטת התריס וטיפול בדיכאון",lineWidth:1147,x:1206.95,y:165}},{t:this.text_1,p:{text:".יש להשקות בצורה סדירה באופן יום יומי. רצוי לשמור על מצע אדמה לח ולהימנע מעודפי השקיה",x:1053.8,y:551.05,lineWidth:989}},{t:this.text,p:{text:"",font:"24px 'VarelaRound-Regular'",lineHeight:33.45,x:1206.95,y:588.8,lineWidth:965}},{t:this.moreMallisa}]},1).to({state:[{t:this.text_15,p:{color:"#ED53B2"}},{t:this.text_14,p:{color:"#ED53B2"}},{t:this.text_13,p:{color:"#ED53B2"}},{t:this.text_12,p:{color:"#ED53B2"}},{t:this.text_11,p:{color:"#ED53B2"}},{t:this.text_10,p:{color:"#ED53B2"}},{t:this.text_9,p:{color:"#ED53B2"}},{t:this.text_8,p:{text:".אדום, לבן, סגול, בורדו וגוונים של ורוד"}},{t:this.text_7,p:{text:".ניתן לשתול בערוגה או במכל בגינה"}},{t:this.text_6,p:{text:".בעונת הסתיו"}},{t:this.text_5,p:{text:".פורח כמעט בכל עונות השנה"}},{t:this.text_4,p:{text:".ניתן בשמש מלאה וגם חלקית"}},{t:this.text_3,p:{text:".חלק מהזנים נישאים לגובה של כ-30 ס\"מ או יותר, תלוי בזן ותנאי הגידול"}},{t:this.text_2,p:{text:".שיח הגרניום הריחני ויפה מושך אליו דבורים ומאביקים נוספים. סגולותיו ידועות מהרפואה העממית והוא משמש לטיפול בדלקות ופצעים",lineWidth:1028,x:1206.95,y:165}},{t:this.text_1,p:{text:".השקיה בינונית וסדירה. חשוב לא להפריז בעודף מים אשר גורם לריקבון. מומלץ אפילו ליבש את הצמח בין השקיה להשקיה",x:1053.8,y:551.05,lineWidth:989}},{t:this.text,p:{text:"",font:"24px 'VarelaRound-Regular'",lineHeight:33.45,x:1206.95,y:588.8,lineWidth:965}},{t:this.moreGeranium}]},1).to({state:[{t:this.text_15,p:{color:"#69539C"}},{t:this.text_14,p:{color:"#69539C"}},{t:this.text_13,p:{color:"#69539C"}},{t:this.text_12,p:{color:"#69539C"}},{t:this.text_11,p:{color:"#69539C"}},{t:this.text_10,p:{color:"#69539C"}},{t:this.text_9,p:{color:"#69539C"}},{t:this.text_8,p:{text:".גווני ורוד סגול"}},{t:this.text_7,p:{text:".באדניות המונחות במקום מואר בתוך הבית או בגינה"}},{t:this.text_6,p:{text:".אביב או סתיו"}},{t:this.text_5,p:{text:".בקיץ רק פעם בשנה, בין יוני לספטמבר"}},{t:this.text_4,p:{text:".נדרשת שמש ישירה"}},{t:this.text_3,p:{text:".שיח המגיע לגובה של 20-80 ס\"מ, גדל גם לרוחב"}},{t:this.text_2,p:{text:".לבנדר הוא שיח ריחני, בעל עלים משוננים ופרחים סגולים הגדלים בתפרחות ומשמשים להרגעה, חליטות תה ולהרחקת עש ושאר מזיקים",lineWidth:1050,x:1206.95,y:165}},{t:this.text_1,p:{text:".נדרשת השקיה מועטה",x:1053.8,y:551.05,lineWidth:989}},{t:this.text,p:{text:"",font:"24px 'VarelaRound-Regular'",lineHeight:33.45,x:1206.95,y:588.8,lineWidth:965}},{t:this.moreLavender}]},1).to({state:[{t:this.text_2,p:{text:".איבון דקר, חן בלום ולינדה בונים",lineWidth:264,x:1024.8,y:283.45}},{t:this.text_1,p:{text:".ייצוג אנטראקטיבי, המאפשר לחקור וללמוד על 12 פרחים שניתן לגדל בבית, במרפסת או בגינה",x:1178.95,y:176.45,lineWidth:723}},{t:this.text,p:{text:"פרויקט גמר טל\"מ שנה א' - סמסטר קיץ תש\"פ\n.במסגרת קורסי מבוא לתכנות אינטרקציה ואנימציה וארגון וייצוג ידע",font:"18px 'Varela Round'",lineHeight:25.6,x:1184,y:538.55,lineWidth:510}}]},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.text_15,p:{color:"#642955"}},{t:this.text_14,p:{color:"#642955"}},{t:this.text_13,p:{color:"#642955"}},{t:this.text_12,p:{color:"#642955"}},{t:this.text_11,p:{color:"#642955"}},{t:this.text_10,p:{color:"#642955"}},{t:this.text_9,p:{color:"#642955"}},{t:this.text_8,p:{text:".מגוון רחב של צבעים מלבן ועד ארגמן מעורב בשחור"}},{t:this.text_7,p:{text:".מתאים לגינה. ניתן לגדלו גם באדנית "}},{t:this.text_6,p:{text:".בין הסתיו לתחילת האביב"}},{t:this.text_5,p:{text:".פורח בחורף בפברואר"}},{t:this.text_4,p:{text:".חשיפה חלקית לשמש, רצוי שישהה בה כחצי יום"}},{t:this.text_3,p:{text:".מתרומם לגובה של 20-40 ס\"מ, בראשו פרח בודד וקוטרו כ8 ס\"מ"}},{t:this.text_2,p:{text:".האירוס הוא פרח רב שנתי, עמיד לקור, יפה במיוחד ונוח לגידול ביתי",lineWidth:687,x:1206.95,y:165}},{t:this.text_1,p:{text:"מומלץ להשקות אחת לשבוע בשעות הבוקר, ב-2-3 ס\"מ של מים. אם העלים נראים",x:1053.8,y:551.05,lineWidth:989}},{t:this.text,p:{text:".נבולים השקו מעט יותר ",font:"18px 'Arial'",lineHeight:22.1,x:1206.95,y:588.8,lineWidth:965}},{t:this.moreIris}]}).to({state:[{t:this.text_15,p:{color:"#005500"}},{t:this.text_14,p:{color:"#005500"}},{t:this.text_13,p:{color:"#005500"}},{t:this.text_12,p:{color:"#005500"}},{t:this.text_11,p:{color:"#005500"}},{t:this.text_10,p:{color:"#005500"}},{t:this.text_9,p:{color:"#005500"}},{t:this.text_8,p:{text:".ורוד, כחול, לבן, צהוב ואדום"}},{t:this.text_7,p:{text:".באדנית או בגינה"}},{t:this.text_6,p:{text:".אוקטובר עד דצמבר"}},{t:this.text_5,p:{text:".חודשי החורף והאביב, מרס-אפריל"}},{t:this.text_4,p:{text:".ללא חשיפה ישירה לשמש, יש להניח בצל"}},{t:this.text_3,p:{text:"כ-20 ס״מ"}},{t:this.text_2,p:{text:"פרח מרהיב בעל ניחוח עז ונפלא. הפרחים צפופים בצורת כוכבים הממוקמים בראש הגבעול",lineWidth:687,x:1206.95,y:165}},{t:this.text_1,p:{text:".יש להשקות את הבצלים מיד לאחר השתילה ובקביעות, כך שהקרקע תישמר לחה עד תחילת הגשמים",x:1053.8,y:551.05,lineWidth:989}},{t:this.text,p:{text:".חיפוי הקרקע יאריך את משך הפריחה ויקל על הטיפול בצמח",font:"18px 'Arial'",lineHeight:22.1,x:1206.95,y:588.8,lineWidth:965}},{t:this.moreHyacinth}]},1).to({state:[{t:this.text_15,p:{color:"#A31E29"}},{t:this.text_14,p:{color:"#A31E29"}},{t:this.text_13,p:{color:"#A31E29"}},{t:this.text_12,p:{color:"#A31E29"}},{t:this.text_11,p:{color:"#A31E29"}},{t:this.text_10,p:{color:"#A31E29"}},{t:this.text_9,p:{color:"#A31E29"}},{t:this.text_8,p:{text:".סגול או ורוד"}},{t:this.text_7,p:{text:".מומלץ באדנית או במיכל גדול"}},{t:this.text_6,p:{text:".בחורף"}},{t:this.text_5,p:{text:".קיץ ואביב"}},{t:this.text_4,p:{text:".שמש ישירה או הצללה חלקית"}},{t:this.text_3,p:{text:".20-60 ס\"מ"}},{t:this.text_2,p:{text:".הציפורן הינו צמח נוי ארומטי בעל פרחים גדולים המפיצים את ריחם הנעים למרחקים",lineWidth:687,x:1206.95,y:165}},{t:this.text_1,p:{text:".זקוק להשקיה מרובה, כ4 פעמים בשבוע",x:1053.8,y:551.05,lineWidth:989}},{t:this.text,p:{text:"",font:"18px 'VarelaRound-Regular'",lineHeight:22.1,x:1206.95,y:588.8,lineWidth:965}},{t:this.moreCarnation}]},1).to({state:[{t:this.text_15,p:{color:"#614694"}},{t:this.text_14,p:{color:"#614694"}},{t:this.text_13,p:{color:"#614694"}},{t:this.text_12,p:{color:"#614694"}},{t:this.text_11,p:{color:"#614694"}},{t:this.text_10,p:{color:"#614694"}},{t:this.text_9,p:{color:"#614694"}},{t:this.text_8,p:{text:".לבן, צהוב, כתום, אדום, בורדו, ורוד, סגול בהיר לילך, סגול כהה, כחול ועוד"}},{t:this.text_7,p:{text:".בגינה, באדניות ובמכלי עציץ קטנים"}},{t:this.text_6,p:{text:".בסתיו"}},{t:this.text_5,p:{text:".בחורף"}},{t:this.text_4,p:{text:".ישירה או הצללה חלקית"}},{t:this.text_3,p:{text:".15-20 ס\"מ"}},{t:this.text_2,p:{text:".פרחי נוי המופעים בשלל צבעים וגדלים. צמח קל לגידול ולכן ניתן למצוא אותו לצידי שבילים ברחוב, בגינות פרטיות, ובאדניות",lineWidth:949,x:1206.95,y:165}},{t:this.text_1,p:{text:".השקיה בינונית עד נמוכה, ההשקיה היעילה ביותר תתבצע באמצעות טפופות",x:1053.8,y:551.05,lineWidth:989}},{t:this.text,p:{text:"",font:"24px 'VarelaRound-Regular'",lineHeight:28.85,x:1206.95,y:588.8,lineWidth:965}},{t:this.morePansyAT}]},1).to({state:[{t:this.text_15,p:{color:"#BC4788"}},{t:this.text_14,p:{color:"#BC4788"}},{t:this.text_13,p:{color:"#BC4788"}},{t:this.text_12,p:{color:"#BC4788"}},{t:this.text_11,p:{color:"#BC4788"}},{t:this.text_10,p:{color:"#BC4788"}},{t:this.text_9,p:{color:"#BC4788"}},{t:this.text_8,p:{text:".ורוד, לבן, אדום, סגול ועוד"}},{t:this.text_7,p:{text:".מומלץ בגינה או בעציצם בינוניים בבית"}},{t:this.text_6,p:{text:".באביב ובתחילת הקיץ"}},{t:this.text_5,p:{text:".אביב וסתיו"}},{t:this.text_4,p:{text:".חשיפה מלאה"}},{t:this.text_3,p:{text:".נישא לגובה של כ-40 ס\"מ קיימים זנים שקוטר הפרח שלהם מגיע ל-20 ס\"מ"}},{t:this.text_2,p:{text:".דליה היא סוג של פרח רב-שנתי שמקורו במקסיקו, והיא משמשת גם כפרח הלאומי של המדינה. חלק מזני הדליה הם אכילים",lineWidth:949,x:1206.95,y:165}},{t:this.text_1,p:{text:"הדליה זקוקה לאדמה לחה, אך היא עלולה להירקב באדמה הספוגה במים, לכן מומלץ להשקות אותה באמצעות טפטפות ולא ",x:1053.8,y:551.05,lineWidth:989}},{t:this.text,p:{text:"ולא בהשקיה ידנית. על ההשקיה להמשך כחצי שעה בכל פעם, 2-3 פעמים בשבוע",font:"18px 'Arial'",lineHeight:22.1,x:1206.95,y:588.8,lineWidth:965}},{t:this.moreDahlia}]},1).to({state:[{t:this.text_15,p:{color:"#000000"}},{t:this.text_14,p:{color:"#000000"}},{t:this.text_13,p:{color:"#000000"}},{t:this.text_12,p:{color:"#000000"}},{t:this.text_11,p:{color:"#000000"}},{t:this.text_10,p:{color:"#000000"}},{t:this.text_9,p:{color:"#000000"}},{t:this.text_8,p:{text:".לבן וצהוב"}},{t:this.text_7,p:{text:".מתאים לגידול בבית בעציץ או לשתילה בגינה"}},{t:this.text_6,p:{text:".בין סוף הסתיו לתחילת האביב"}},{t:this.text_5,p:{text:".רוב השנה, בעיקר בקיץ"}},{t:this.text_4,p:{text:".שמש חלקית"}},{t:this.text_3,p:{text:".10 מ', צמח מטפס"}},{t:this.text_2,p:{text:".פרח בעל ניחוח נפלא אשר ידוע ביתרונותיו הבריאותיים הרבים. היסמין מרגיע את העצבים, מגביר את החשק המיני ואף עוזר להילחם בסרטן ",lineWidth:1052,x:1206.95,y:165}},{t:this.text_1,p:{text:"חשוב שהאדמה שלא תהיה ספוגה במים. רצוי להשקות אותו 2-3 פעמים בשבוע במהלך הקיץ. בחורף מומלץ להשקות לפי הצורך, ",x:1053.8,y:551.05,lineWidth:989}},{t:this.text,p:{text:"לגעת באדמה בסביבת הפרח ולהשקות רק כשהיא יבשה.",font:"18px 'Arial'",lineHeight:22.1,x:1206.95,y:588.8,lineWidth:965}},{t:this.moreJasmine}]},1).to({state:[{t:this.text_15,p:{color:"#BE4B6C"}},{t:this.text_14,p:{color:"#BE4B6C"}},{t:this.text_13,p:{color:"#BE4B6C"}},{t:this.text_12,p:{color:"#BE4B6C"}},{t:this.text_11,p:{color:"#BE4B6C"}},{t:this.text_10,p:{color:"#BE4B6C"}},{t:this.text_9,p:{color:"#BE4B6C"}},{t:this.text_8,p:{text:". לבן, סגול בהיר וסגול כהה"}},{t:this.text_7,p:{text:".בעציץ או בגינה"}},{t:this.text_6,p:{text:".קיץ ואביב"}},{t:this.text_5,p:{text:".רוב השנה, בעיקר בקיץ"}},{t:this.text_4,p:{text:".שמש חלקית עד מלאה בהתאם למין הפרח"}},{t:this.text_3,p:{text:".ודלם של צמחים אלו נע בין שיחים גדולים לעצים קטנים (2-10 מטר)"}},{t:this.text_2,p:{text:".הלילך הוא צמח בעל פרחים בצבעי סגול או לבן שמזכירים בצורתם לב. פרח ושיח הלילך יכול לפרוח ולחיות שנים רבות",lineWidth:949,x:1206.95,y:165}},{t:this.text_1,p:{text:"זקוק לאדמה לחה, אך לא ספוגה במים. מומלץ להשקות ביסודיות אחת לשבוע. במקרה שהאדמה נראית יבשה או ספוגה במים, יש ",x:1053.8,y:551.05,lineWidth:989}},{t:this.text,p:{text:"לשנות את תדירות ההשקיה בהתאם.",font:"18px 'Arial'",lineHeight:22.1,x:1206.95,y:588.8,lineWidth:965}},{t:this.moreLilach}]},1).to({state:[{t:this.text_15,p:{color:"#53AC2C"}},{t:this.text_14,p:{color:"#53AC2C"}},{t:this.text_13,p:{color:"#53AC2C"}},{t:this.text_12,p:{color:"#53AC2C"}},{t:this.text_11,p:{color:"#53AC2C"}},{t:this.text_10,p:{color:"#53AC2C"}},{t:this.text_9,p:{color:"#53AC2C"}},{t:this.text_8,p:{text:".לבן ולילך וירוק"}},{t:this.text_7,p:{text:".    מתאים לגידול ביתי בעציץ וגידול בגינה"}},{t:this.text_6,p:{text:".בעונות האביב והסתיו"}},{t:this.text_5,p:{text:".בעונות האביב והקיץ"}},{t:this.text_4,p:{text:" .שמש חלקית"}},{t:this.text_3,p:{text:".צמח זקוף ומסתעף, גובהו 70 ס\"מ ויותר"}},{t:this.text_2,p:{text:".צמח המתאפיין בריחו הלימוני ומשמש כצמח מרפא. המליסה מסייעת בטיפול במגוון מצבים רפואיים כגון איזון פעילות של בלוטת התריס וטיפול בדיכאון",lineWidth:1147,x:1206.95,y:165}},{t:this.text_1,p:{text:".יש להשקות בצורה סדירה באופן יום יומי. רצוי לשמור על מצע אדמה לח ולהימנע מעודפי השקיה",x:1053.8,y:551.05,lineWidth:989}},{t:this.text,p:{text:"",font:"24px 'VarelaRound-Regular'",lineHeight:28.85,x:1206.95,y:588.8,lineWidth:965}},{t:this.moreMallisa}]},1).to({state:[{t:this.text_15,p:{color:"#ED53B2"}},{t:this.text_14,p:{color:"#ED53B2"}},{t:this.text_13,p:{color:"#ED53B2"}},{t:this.text_12,p:{color:"#ED53B2"}},{t:this.text_11,p:{color:"#ED53B2"}},{t:this.text_10,p:{color:"#ED53B2"}},{t:this.text_9,p:{color:"#ED53B2"}},{t:this.text_8,p:{text:".אדום, לבן, סגול, בורדו וגוונים של ורוד"}},{t:this.text_7,p:{text:".ניתן לשתול בערוגה או במכל בגינה"}},{t:this.text_6,p:{text:".בעונת הסתיו"}},{t:this.text_5,p:{text:".פורח כמעט בכל עונות השנה"}},{t:this.text_4,p:{text:".ניתן בשמש מלאה וגם חלקית"}},{t:this.text_3,p:{text:".חלק מהזנים נישאים לגובה של כ-30 ס\"מ או יותר, תלוי בזן ותנאי הגידול"}},{t:this.text_2,p:{text:".שיח הגרניום הריחני ויפה מושך אליו דבורים ומאביקים נוספים. סגולותיו ידועות מהרפואה העממית והוא משמש לטיפול בדלקות ופצעים",lineWidth:1028,x:1206.95,y:165}},{t:this.text_1,p:{text:".השקיה בינונית וסדירה. חשוב לא להפריז בעודף מים אשר גורם לריקבון. מומלץ אפילו ליבש את הצמח בין השקיה להשקיה",x:1053.8,y:551.05,lineWidth:989}},{t:this.text,p:{text:"",font:"24px 'VarelaRound-Regular'",lineHeight:28.85,x:1206.95,y:588.8,lineWidth:965}},{t:this.moreGeranium}]},1).to({state:[{t:this.text_15,p:{color:"#69539C"}},{t:this.text_14,p:{color:"#69539C"}},{t:this.text_13,p:{color:"#69539C"}},{t:this.text_12,p:{color:"#69539C"}},{t:this.text_11,p:{color:"#69539C"}},{t:this.text_10,p:{color:"#69539C"}},{t:this.text_9,p:{color:"#69539C"}},{t:this.text_8,p:{text:".גווני ורוד סגול"}},{t:this.text_7,p:{text:".באדניות המונחות במקום מואר בתוך הבית או בגינה"}},{t:this.text_6,p:{text:".אביב או סתיו"}},{t:this.text_5,p:{text:".בקיץ רק פעם בשנה, בין יוני לספטמבר"}},{t:this.text_4,p:{text:".נדרשת שמש ישירה"}},{t:this.text_3,p:{text:".שיח המגיע לגובה של 20-80 ס\"מ, גדל גם לרוחב"}},{t:this.text_2,p:{text:".לבנדר הוא שיח ריחני, בעל עלים משוננים ופרחים סגולים הגדלים בתפרחות ומשמשים להרגעה, חליטות תה ולהרחקת עש ושאר מזיקים",lineWidth:1050,x:1206.95,y:165}},{t:this.text_1,p:{text:".נדרשת השקיה מועטה",x:1053.8,y:551.05,lineWidth:989}},{t:this.text,p:{text:"",font:"24px 'VarelaRound-Regular'",lineHeight:28.85,x:1206.95,y:588.8,lineWidth:965}},{t:this.moreLavender}]},1).to({state:[{t:this.text_2,p:{text:".איבון דקר, חן בלום ולינדה בונים",lineWidth:264,x:1024.8,y:283.45}},{t:this.text_1,p:{text:".ייצוג אנטראקטיבי, המאפשר לחקור וללמוד על 12 פרחים שניתן לגדל בבית, במרפסת או בגינה",x:1178.95,y:176.45,lineWidth:723}},{t:this.text,p:{text:"פרויקט גמר טל\"מ שנה א' - סמסטר קיץ תש\"פ\n.במסגרת קורסי מבוא לתכנות אינטרקציה ואנימציה וארגון וייצוג ידע",font:"18px 'Arial'",lineHeight:22.1,x:1184,y:538.55,lineWidth:510}}]},1).wait(1));
 
 	// HitHolonLogo_ai
 	this.irisCard1 = new lib.irisMain();
 	this.irisCard1.name = "irisCard1";
-	this.irisCard1.setTransform(236.9,512.35,1.3812,1.3812,0,0,0,53.8,68.3);
+	this.irisCard1.setTransform(236.9,512.2,1.3812,1.3812,0,0,0,53.8,68.2);
 	this.irisCard1.shadow = new cjs.Shadow("rgba(153,153,153,1)",1,1,10);
 
 	this.clsIris1 = new lib.closeBtn();
@@ -4086,7 +4088,7 @@ if (reversed == null) { reversed = false; }
 		lib.webFontTxtInst['Varela Round'].push(this.text_16);
 	}
 
-	this.instance = new lib.CachedBmp_488();
+	this.instance = new lib.CachedBmp_9();
 	this.instance.setTransform(0,0,0.5,0.5);
 
 	this.instance_1 = new lib.CachedBmp_28();
@@ -4102,7 +4104,7 @@ if (reversed == null) { reversed = false; }
 	this.clshyacinth1.setTransform(101.3,104,1,1,0,0,0,16.1,19.1);
 	new cjs.ButtonHelper(this.clshyacinth1, 0, 1, 1);
 
-	this.instance_2 = new lib.CachedBmp_489();
+	this.instance_2 = new lib.CachedBmp_11();
 	this.instance_2.setTransform(-0.3,0,0.5,0.5);
 
 	this.carnationCard1 = new lib.carnationMain();
@@ -4115,7 +4117,7 @@ if (reversed == null) { reversed = false; }
 	this.clsCarnation1.setTransform(101.3,104,1,1,0,0,0,16.1,19.1);
 	new cjs.ButtonHelper(this.clsCarnation1, 0, 1, 1);
 
-	this.instance_3 = new lib.CachedBmp_490();
+	this.instance_3 = new lib.CachedBmp_13();
 	this.instance_3.setTransform(0,0,0.5,0.5);
 
 	this.pansyATCard1 = new lib.pansyMain();
@@ -4128,7 +4130,7 @@ if (reversed == null) { reversed = false; }
 	this.clsPansyAT1.setTransform(101.3,104,1,1,0,0,0,16.1,19.1);
 	new cjs.ButtonHelper(this.clsPansyAT1, 0, 1, 1);
 
-	this.instance_4 = new lib.CachedBmp_491();
+	this.instance_4 = new lib.CachedBmp_15();
 	this.instance_4.setTransform(0,0,0.5,0.5);
 
 	this.dahliaCard1 = new lib.dahliaMain();
@@ -4141,7 +4143,7 @@ if (reversed == null) { reversed = false; }
 	this.clsDahlia1.setTransform(101.3,104,1,1,0,0,0,16.1,19.1);
 	new cjs.ButtonHelper(this.clsDahlia1, 0, 1, 1);
 
-	this.instance_5 = new lib.CachedBmp_492();
+	this.instance_5 = new lib.CachedBmp_17();
 	this.instance_5.setTransform(0,0,0.5,0.5);
 
 	this.jasminCard1 = new lib.jasmineMain();
@@ -4154,7 +4156,7 @@ if (reversed == null) { reversed = false; }
 	this.clsJasmin1.setTransform(101.3,104,1,1,0,0,0,16.1,19.1);
 	new cjs.ButtonHelper(this.clsJasmin1, 0, 1, 1);
 
-	this.instance_6 = new lib.CachedBmp_493();
+	this.instance_6 = new lib.CachedBmp_19();
 	this.instance_6.setTransform(0,0,0.5,0.5);
 
 	this.lilachCard1 = new lib.lilachMain();
@@ -4167,7 +4169,7 @@ if (reversed == null) { reversed = false; }
 	this.clsLilach1.setTransform(101.3,104,1,1,0,0,0,16.1,19.1);
 	new cjs.ButtonHelper(this.clsLilach1, 0, 1, 1);
 
-	this.instance_7 = new lib.CachedBmp_494();
+	this.instance_7 = new lib.CachedBmp_21();
 	this.instance_7.setTransform(0,0,0.5,0.5);
 
 	this.malicaCard1 = new lib.mallisaMain();
@@ -4180,7 +4182,7 @@ if (reversed == null) { reversed = false; }
 	this.clsMallisa1.setTransform(101.3,104,1,1,0,0,0,16.1,19.1);
 	new cjs.ButtonHelper(this.clsMallisa1, 0, 1, 1);
 
-	this.instance_8 = new lib.CachedBmp_495();
+	this.instance_8 = new lib.CachedBmp_23();
 	this.instance_8.setTransform(0,0,0.5,0.5);
 
 	this.geraniumCard1 = new lib.geraniumMain();
@@ -4193,7 +4195,7 @@ if (reversed == null) { reversed = false; }
 	this.clsGeranium1.setTransform(101.3,104,1,1,0,0,0,16.1,19.1);
 	new cjs.ButtonHelper(this.clsGeranium1, 0, 1, 1);
 
-	this.instance_9 = new lib.CachedBmp_496();
+	this.instance_9 = new lib.CachedBmp_25();
 	this.instance_9.setTransform(0,0,0.5,0.5);
 
 	this.lavenderCard1 = new lib.lavenderMain();
@@ -4206,40 +4208,41 @@ if (reversed == null) { reversed = false; }
 	this.clsLavender1.setTransform(101.3,104,1,1,0,0,0,16.1,19.1);
 	new cjs.ButtonHelper(this.clsLavender1, 0, 1, 1);
 
-	this.instance_10 = new lib.CachedBmp_497();
+	this.instance_10 = new lib.CachedBmp_27();
 	this.instance_10.setTransform(0,0,0.5,0.5);
 
 	this.HITlogo = new lib.HITlogo();
 	this.HITlogo.name = "HITlogo";
 	this.HITlogo.setTransform(166.7,592.05,1,1,0,0,0,60,39.5);
+	new cjs.ButtonHelper(this.HITlogo, 0, 1, 1);
 
 	this.instance_11 = new lib.bgFlower("synched",0);
 	this.instance_11.setTransform(453.7,393,1,1,0,0,0,305.3,251.1);
 
-	this.text_17 = new cjs.Text(":צוות הפרויקט ", "24px 'Varela Round'", "#005500");
+	this.text_17 = new cjs.Text(":צוות הפרויקט ", "24px 'Arial'", "#005500");
 	this.text_17.textAlign = "right";
-	this.text_17.lineHeight = 33;
+	this.text_17.lineHeight = 29;
 	this.text_17.lineWidth = 149;
 	this.text_17.parent = this;
 	this.text_17.setTransform(1178.95,277.45);
 
-	this.text_18 = new cjs.Text(".נגה רזניק וד\"ר מיטל אמזלג", "18px 'Varela Round'");
+	this.text_18 = new cjs.Text(".נגה רזניק וד\"ר מיטל אמזלג", "18px 'Arial'");
 	this.text_18.textAlign = "right";
-	this.text_18.lineHeight = 26;
+	this.text_18.lineHeight = 22;
 	this.text_18.lineWidth = 217;
 	this.text_18.parent = this;
 	this.text_18.setTransform(1103,396.2);
 
-	this.text_19 = new cjs.Text(":מנחות", "24px 'Varela Round'", "#005500");
+	this.text_19 = new cjs.Text(":מנחות", "24px 'Arial'", "#005500");
 	this.text_19.textAlign = "right";
-	this.text_19.lineHeight = 33;
+	this.text_19.lineHeight = 29;
 	this.text_19.lineWidth = 72;
 	this.text_19.parent = this;
 	this.text_19.setTransform(1178.95,390.2);
 
-	this.text_20 = new cjs.Text("אודות", "28px 'Varela Round'", "#FFFFFF");
+	this.text_20 = new cjs.Text("אודות", "28px 'Arial'", "#FFFFFF");
 	this.text_20.textAlign = "right";
-	this.text_20.lineHeight = 39;
+	this.text_20.lineHeight = 33;
 	this.text_20.lineWidth = 80;
 	this.text_20.parent = this;
 	this.text_20.setTransform(1178.95,80.8);
@@ -4249,20 +4252,20 @@ if (reversed == null) { reversed = false; }
 	this.clsAbout1.setTransform(101.3,104,1,1,0,0,0,16.1,19.1);
 	new cjs.ButtonHelper(this.clsAbout1, 0, 1, 1);
 
-	this.instance_12 = new lib.CachedBmp_499();
+	this.instance_12 = new lib.CachedBmp_30();
 	this.instance_12.setTransform(0,0,0.5,0.5);
 
-	this.text_21 = new cjs.Text("לבנדר- אזוביון", "28px 'Varela Round'", "#FFFFFF");
+	this.text_21 = new cjs.Text("לבנדר- אזוביון", "28px 'Arial'", "#FFFFFF");
 	this.text_21.textAlign = "right";
-	this.text_21.lineHeight = 39;
+	this.text_21.lineHeight = 33;
 	this.text_21.lineWidth = 229;
 	this.text_21.parent = this;
 	this.text_21.setTransform(1178.95,80.8);
 
-	this.instance_13 = new lib.CachedBmp_498();
+	this.instance_13 = new lib.CachedBmp_29();
 	this.instance_13.setTransform(0,0,0.5,0.5);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance},{t:this.text_16,p:{text:"אירוס",lineWidth:88,x:1178.95,y:80.8,font:"normal 400 28px 'Varela Round'",color:"#FFFFFF",lineHeight:38.7}},{t:this.clsIris1},{t:this.irisCard1}]}).to({state:[{t:this.instance_1},{t:this.instance_2},{t:this.clshyacinth1},{t:this.text_16,p:{text:"יקינתון",lineWidth:88,x:1178.95,y:80.8,font:"normal 400 28px 'Varela Round'",color:"#FFFFFF",lineHeight:38.7}},{t:this.hyacinthCard1}]},1).to({state:[{t:this.instance_1},{t:this.instance_3},{t:this.clsCarnation1},{t:this.text_16,p:{text:"ציפורן",lineWidth:88,x:1178.95,y:80.8,font:"normal 400 28px 'Varela Round'",color:"#FFFFFF",lineHeight:38.7}},{t:this.carnationCard1}]},1).to({state:[{t:this.instance_1},{t:this.instance_4},{t:this.clsPansyAT1},{t:this.text_16,p:{text:"אמנון ותמר",lineWidth:229,x:1178.95,y:80.8,font:"normal 400 28px 'Varela Round'",color:"#FFFFFF",lineHeight:38.7}},{t:this.pansyATCard1}]},1).to({state:[{t:this.instance_1},{t:this.instance_5},{t:this.clsDahlia1},{t:this.text_16,p:{text:"דליה",lineWidth:229,x:1178.95,y:80.8,font:"normal 400 28px 'Varela Round'",color:"#FFFFFF",lineHeight:38.7}},{t:this.dahliaCard1}]},1).to({state:[{t:this.instance_1},{t:this.instance_6},{t:this.clsJasmin1},{t:this.text_16,p:{text:"יסמין",lineWidth:229,x:1178.95,y:80.8,font:"normal 400 28px 'Varela Round'",color:"#FFFFFF",lineHeight:38.7}},{t:this.jasminCard1}]},1).to({state:[{t:this.instance_1},{t:this.instance_7},{t:this.clsLilach1},{t:this.text_16,p:{text:"לילך",lineWidth:229,x:1178.95,y:80.8,font:"normal 400 28px 'Varela Round'",color:"#FFFFFF",lineHeight:38.7}},{t:this.lilachCard1}]},1).to({state:[{t:this.instance_1},{t:this.instance_8},{t:this.clsMallisa1},{t:this.text_16,p:{text:"מליסה",lineWidth:229,x:1178.95,y:80.8,font:"normal 400 28px 'Varela Round'",color:"#FFFFFF",lineHeight:38.7}},{t:this.malicaCard1}]},1).to({state:[{t:this.instance_1},{t:this.instance_9},{t:this.clsGeranium1},{t:this.text_16,p:{text:"גרניום",lineWidth:229,x:1178.95,y:80.8,font:"normal 400 28px 'Varela Round'",color:"#FFFFFF",lineHeight:38.7}},{t:this.geraniumCard1}]},1).to({state:[{t:this.instance_1},{t:this.instance_10},{t:this.clsLavender1},{t:this.text_16,p:{text:"לבנדר- אזוביון",lineWidth:229,x:1178.95,y:80.8,font:"normal 400 28px 'Varela Round'",color:"#FFFFFF",lineHeight:38.7}},{t:this.lavenderCard1}]},1).to({state:[{t:this.instance_1},{t:this.instance_13},{t:this.clsLavender1},{t:this.text_21},{t:this.lavenderCard1},{t:this.instance_12},{t:this.clsAbout1},{t:this.text_20},{t:this.text_19},{t:this.text_18},{t:this.text_17},{t:this.text_16,p:{text:":פותח במסגרת",lineWidth:175,x:1184,y:503.1,font:"normal 400 24px 'Varela Round'",color:"#005500",lineHeight:33.45}},{t:this.instance_11},{t:this.HITlogo}]},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance},{t:this.text_16,p:{text:"אירוס",lineHeight:38.7,lineWidth:88,x:1178.95,y:80.8,font:"normal 400 28px 'Varela Round'",color:"#FFFFFF"}},{t:this.clsIris1},{t:this.irisCard1}]}).to({state:[{t:this.instance_1},{t:this.instance_2},{t:this.clshyacinth1},{t:this.text_16,p:{text:"יקינתון",lineHeight:38.7,lineWidth:88,x:1178.95,y:80.8,font:"normal 400 28px 'Varela Round'",color:"#FFFFFF"}},{t:this.hyacinthCard1}]},1).to({state:[{t:this.instance_1},{t:this.instance_3},{t:this.clsCarnation1},{t:this.text_16,p:{text:"ציפורן",lineHeight:38.7,lineWidth:88,x:1178.95,y:80.8,font:"normal 400 28px 'Varela Round'",color:"#FFFFFF"}},{t:this.carnationCard1}]},1).to({state:[{t:this.instance_1},{t:this.instance_4},{t:this.clsPansyAT1},{t:this.text_16,p:{text:"אמנון ותמר",lineHeight:33.3,lineWidth:229,x:1178.95,y:80.8,font:"normal 400 28px 'Varela Round'",color:"#FFFFFF"}},{t:this.pansyATCard1}]},1).to({state:[{t:this.instance_1},{t:this.instance_5},{t:this.clsDahlia1},{t:this.text_16,p:{text:"דליה",lineHeight:33.3,lineWidth:229,x:1178.95,y:80.8,font:"normal 400 28px 'Varela Round'",color:"#FFFFFF"}},{t:this.dahliaCard1}]},1).to({state:[{t:this.instance_1},{t:this.instance_6},{t:this.clsJasmin1},{t:this.text_16,p:{text:"יסמין",lineHeight:33.3,lineWidth:229,x:1178.95,y:80.8,font:"normal 400 28px 'Varela Round'",color:"#FFFFFF"}},{t:this.jasminCard1}]},1).to({state:[{t:this.instance_1},{t:this.instance_7},{t:this.clsLilach1},{t:this.text_16,p:{text:"לילך",lineHeight:33.3,lineWidth:229,x:1178.95,y:80.8,font:"normal 400 28px 'Varela Round'",color:"#FFFFFF"}},{t:this.lilachCard1}]},1).to({state:[{t:this.instance_1},{t:this.instance_8},{t:this.clsMallisa1},{t:this.text_16,p:{text:"מליסה",lineHeight:33.3,lineWidth:229,x:1178.95,y:80.8,font:"normal 400 28px 'Varela Round'",color:"#FFFFFF"}},{t:this.malicaCard1}]},1).to({state:[{t:this.instance_1},{t:this.instance_9},{t:this.clsGeranium1},{t:this.text_16,p:{text:"גרניום",lineHeight:33.3,lineWidth:229,x:1178.95,y:80.8,font:"normal 400 28px 'Varela Round'",color:"#FFFFFF"}},{t:this.geraniumCard1}]},1).to({state:[{t:this.instance_1},{t:this.instance_10},{t:this.clsLavender1},{t:this.text_16,p:{text:"לבנדר- אזוביון",lineHeight:33.3,lineWidth:229,x:1178.95,y:80.8,font:"normal 400 28px 'Varela Round'",color:"#FFFFFF"}},{t:this.lavenderCard1}]},1).to({state:[{t:this.instance_1},{t:this.instance_13},{t:this.clsLavender1},{t:this.text_21},{t:this.lavenderCard1},{t:this.instance_12},{t:this.clsAbout1},{t:this.text_20},{t:this.text_19},{t:this.text_18},{t:this.text_17},{t:this.text_16,p:{text:":פותח במסגרת",lineHeight:28.85,lineWidth:175,x:1184,y:503.1,font:"normal 400 24px 'Varela Round'",color:"#005500"}},{t:this.instance_11},{t:this.HITlogo}]},1).wait(1));
 
 	this._renderFirstFrame();
 
@@ -4514,22 +4517,30 @@ if (reversed == null) { reversed = false; }
 		
 		
 		// פונקציית יציאת עכבר מהפרחים
+		//פונקצית ריסט למסננים ביציאה מהפרחים
+		function outflowers() {
+			self.Fall.gotoAndStop(0);
+			self.Winter.gotoAndStop(0);
+			self.Summer.gotoAndStop(0);
+			self.Spring.gotoAndStop(0);
+			self.FullSun.gotoAndStop(0);
+			self.MidSun.gotoAndStop(0);
+			self.NoSun.gotoAndStop(0);
+		}
+		
 		function outIris() {
 			self.Iris.gotoAndStop(0);
-			SeasonsCheck();
-			SunCheck();
+			outflowers();
 		}
 		
 		function outPansyAT() {
 			self.PansyAT.gotoAndStop(0);
-			SeasonsCheck();
-			SunCheck();
+			outflowers();
 		}
 		
 		function outLavender() {
 			self.Lavender.gotoAndStop(0);
-			SeasonsCheck();
-			SunCheck();
+			outflowers();
 		}
 		
 		function outRose() {
@@ -4542,47 +4553,38 @@ if (reversed == null) { reversed = false; }
 		
 		function outCarnation() {
 			self.Carnation.gotoAndStop(0);
+			outflowers();
 		}
 		
 		function outDahlia() {
 			self.Dahlia.gotoAndStop(0);
-			SeasonsCheck();
-			SunCheck();
+			outflowers();
 		}
 		
 		function outGeranium() {
 			self.Geranium.gotoAndStop(0);
-			if (Seasons == "clear" && Sun == "clear") {
-				resetFlowers();
-			} else {
-				SunCheck();
-				SeasonsCheck();
-			}
+			outflowers();
 		}
 		
 		
 		function outJasmine() {
 			self.Jasmine.gotoAndStop(0);
-			SeasonsCheck();
-			SunCheck();
+			outflowers();
 		}
 		
 		function outLilach() {
 			self.Lilach.gotoAndStop(0);
-			SeasonsCheck();
-			SunCheck();
+			outflowers();
 		}
 		
 		function outHyacinth() {
 			self.Hyacinth.gotoAndStop(0);
-			SeasonsCheck();
-			SunCheck();
+			outflowers();
 		}
 		
 		function outMallisa() {
 			self.Mallisa.gotoAndStop(0);
-			SeasonsCheck();
-			SunCheck();
+			outflowers();
 		}
 		
 		//הפחתת עוצמת הפרחים
@@ -4644,6 +4646,44 @@ if (reversed == null) { reversed = false; }
 		function alphaMallisa() {
 			self.Mallisa.gotoAndStop(0);
 			self.Mallisa.alpha = 0.6;
+		}
+		
+		function resetAll() {
+			outFall();
+			outWinter();
+			outSpring();
+			outSummer();
+			outFullSun();
+			outMidSun();
+			outNoSun();
+			resetFlowers();
+			Sun = "clear";
+			Season = "clear";
+			self.Iris.addEventListener("mouseover", hoverIris);
+			self.PansyAT.addEventListener("mouseover", hoverPansyAT);
+			self.Lavender.addEventListener("mouseover", hoverLavender);
+			self.Rose.addEventListener("mouseover", hoverRose);
+			self.Aureum.addEventListener("mouseover", hoverAureum);
+			self.Carnation.addEventListener("mouseover", hoverCarnation);
+			self.Dahlia.addEventListener("mouseover", hoverDahlia);
+			self.Geranium.addEventListener("mouseover", hoverGeranium);
+			self.Jasmine.addEventListener("mouseover", hoverJasmine);
+			self.Lilach.addEventListener("mouseover", hoverLilach);
+			self.Hyacinth.addEventListener("mouseover", hoverHyacinth);
+			self.Mallisa.addEventListener("mouseover", hoverMallisa);
+			//מאזיני יציאה ממעבר עכבר
+			self.Iris.addEventListener("mouseout", outIris);
+			self.PansyAT.addEventListener("mouseout", outPansyAT);
+			self.Lavender.addEventListener("mouseout", outLavender);
+			self.Rose.addEventListener("mouseout", outRose);
+			self.Aureum.addEventListener("mouseout", outAureum);
+			self.Carnation.addEventListener("mouseout", outCarnation);
+			self.Dahlia.addEventListener("mouseout", outDahlia);
+			self.Geranium.addEventListener("mouseout", outGeranium);
+			self.Jasmine.addEventListener("mouseout", outJasmine);
+			self.Lilach.addEventListener("mouseout", outLilach);
+			self.Hyacinth.addEventListener("mouseout", outHyacinth);
+			self.Mallisa.addEventListener("mouseout", outMallisa);
 		}
 		
 		//החזרת כל הפרחים למצב התחלתי
@@ -4938,46 +4978,24 @@ if (reversed == null) { reversed = false; }
 		//פונקציית הסתרת כרטיסיות ראשיות
 		function closebtn() {
 			self.mainCards.visible = false;
-			SeasonsReclick();
-			SunReclick();
-			if (Seasons == "clear" && Sun == "clear") {
-				resetFlowers();
-			} else {
-				SunCheck();
-				SeasonsCheck();
-			}
-		}
-		
-		//החזרת פעילות מסננים לאחר סגירת כטיסייה
-		function SeasonsReclick() {
-			if (Seasons == "Summer") {
-				self.Summer.mouseEnabled = true;
-			} else if (Seasons == "Winter") {
-				self.Winter.mouseEnabled = true;
-			} else if (Seasons == "Fall") {
-				self.Fall.mouseEnabled = true;
-			} else if (Seasons == "Spring") {
-				self.Spring.mouseEnabled = true;
-			} else {
-				self.Fall.mouseEnabled = true;
-				self.Winter.mouseEnabled = true;
-				self.Spring.mouseEnabled = true;
-				self.Summer.mouseEnabled = true;
-			}
-		}
-		
-		function SunReclick() {
-			if (Sun == "MidSun") {
-				self.MidSun.mouseEnabled = true;
-			} else if (Sun == "FullSun") {
-				self.FullSun.mouseEnabled = true;
-			} else if (Sun == "NoSun") {
-				self.NoSun.mouseEnabled = true;
-			} else {
-				self.FullSun.mouseEnabled = true;
-				self.MidSun.mouseEnabled = true;
-				self.NoSun.mouseEnabled = true;
-			}
+			reableMouseEvents();
+			resetAll();
+			Sun = "clear";
+			Seasons = "clear";
+			self.Fall.addEventListener("mouseover", hoverFall);
+			self.Fall.addEventListener("mouseout", outFall);
+			self.Winter.addEventListener("mouseover", hoverWinter);
+			self.Winter.addEventListener("mouseout", outWinter);
+			self.Spring.addEventListener("mouseover", hoverSpring);
+			self.Spring.addEventListener("mouseout", outSpring);
+			self.Summer.addEventListener("mouseover", hoverSummer);
+			self.Summer.addEventListener("mouseout", outSummer);
+			self.FullSun.addEventListener("mouseover", hoverFullSun);
+			self.FullSun.addEventListener("mouseout", outFullSun);
+			self.MidSun.addEventListener("mouseover", hoverMidSun);
+			self.MidSun.addEventListener("mouseout", outMidSun);
+			self.NoSun.addEventListener("mouseover", hoverNoSun);
+			self.NoSun.addEventListener("mouseout", outNoSun);
 		}
 		
 		//הענקת מאזין לכפתורי סגירת כרטיסיה משנה
@@ -5019,6 +5037,12 @@ if (reversed == null) { reversed = false; }
 		self.NoSun.addEventListener("mouseover", hoverNoSun);
 		self.NoSun.addEventListener("mouseout", outNoSun);
 		
+		self.Annual.addEventListener("mouseover", hoverAnnual);
+		self.Annual.addEventListener("mouseout", outAnnual);
+		
+		self.Polycycle.addEventListener("mouseover", hoverPolycycle);
+		self.Polycycle.addEventListener("mouseout", outPolycycle);
+		
 		//הגדרת מאזין לקליק  במסננים
 		self.Fall.addEventListener("click", clickFall);
 		self.Winter.addEventListener("click", clickWinter);
@@ -5031,6 +5055,22 @@ if (reversed == null) { reversed = false; }
 		
 		//הגדרת מצב פרחים בהתאם למסנן נבחר
 		//מצב מעבר עכבר
+		
+		function hoverAnnual() {
+			self.Annual.cursor = "not-allowed";
+		}
+		function outAnnual() {
+			self.Annual.cursor = "auto";
+		}
+		
+		function hoverPolycycle() {
+			self.Polycycle.cursor = "not-allowed";
+		}
+		
+		function outPolycycle() {
+			self.Polycycle.cursor = "auto";
+		}
+		
 		
 		function filterFallHL() {
 			HLAllFlowers();
@@ -5366,6 +5406,7 @@ if (reversed == null) { reversed = false; }
 		
 		function hoverFall() {
 			self.Fall.gotoAndStop(1);
+			self.Fall.cursor = "pointer";
 			if (Sun == "clear") {
 				filterFallHL();
 			} else {
@@ -5406,6 +5447,7 @@ if (reversed == null) { reversed = false; }
 		
 		function hoverWinter() {
 			self.Winter.gotoAndStop(1);
+			self.Winter.cursor = "pointer";
 			if (Sun == "clear") {
 				filterWinterHL();
 			} else {
@@ -5436,6 +5478,7 @@ if (reversed == null) { reversed = false; }
 		
 		function hoverSpring() {
 			self.Spring.gotoAndStop(1);
+			self.Spring.cursor = "pointer";
 			if (Sun == "clear") {
 				filterSpringHL();
 			} else {
@@ -5466,6 +5509,7 @@ if (reversed == null) { reversed = false; }
 		
 		function hoverSummer() {
 			self.Summer.gotoAndStop(1);
+			self.Summer.cursor = "pointer";
 			if (Sun == "clear") {
 				filterSummerHL();
 			} else {
@@ -5497,6 +5541,7 @@ if (reversed == null) { reversed = false; }
 		
 		function hoverFullSun() {
 			self.FullSun.gotoAndStop(1);
+			self.FullSun.cursor = "pointer";
 			if (Seasons == "clear") {
 				filterFullSunHL();
 			} else {
@@ -5537,6 +5582,7 @@ if (reversed == null) { reversed = false; }
 		
 		function hoverMidSun() {
 			self.MidSun.gotoAndStop(1);
+			self.MidSun.cursor = "pointer";
 			if (Seasons == "clear") {
 				filterMidSunHL();
 			} else {
@@ -5578,6 +5624,7 @@ if (reversed == null) { reversed = false; }
 		
 		function hoverNoSun() {
 			self.NoSun.gotoAndStop(1);
+			self.NoSun.cursor = "pointer";
 			if (Seasons == "clear") {
 				filterNoSunHL();
 			} else {
@@ -5749,80 +5796,16 @@ if (reversed == null) { reversed = false; }
 		
 		//יציאה מהסננים
 		function outFilters() {
-			outFall;
-			outWinter;
-			outSpring;
-			outSummer
+			outFall();
+			outWinter();
+			outSpring();
+			outSummer();
 			outFullSun();
 			outMidSun();
 			outNoSun();
-		
 		}
-		
-		//בדיקה של סטטוס עונה ושמש ביציאה מכל פרח
-		function SeasonsCheck() {
-			if (Seasons == "Summer") {
-				self.Summer.gotoAndStop(2);
-				filterfilterSummerChecked();
-				self.Fall.mouseEnabled = false;
-				self.Spring.mouseEnabled = false;
-				self.Winter.mouseEnabled = false;
-		
-			} else if (Seasons == "Winter") {
-				self.Winter.gotoAndStop(2);
-				filterfilterWinterChecked();
-				self.Fall.mouseEnabled = false;
-				self.Spring.mouseEnabled = false;
-				self.Summer.mouseEnabled = false;
-		
-			} else if (Seasons == "Fall") {
-				self.Fall.gotoAndStop(2);
-				filterfilterFallChecked();
-				self.Winter.mouseEnabled = false;
-				self.Spring.mouseEnabled = false;
-				self.Winter.mouseEnabled = false;
-				
-			} else if (Seasons == "Spring") {
-				self.Spring.gotoAndStop(2);
-				filterfilterSpringChecked();
-				self.Fall.mouseEnabled = false;
-				self.Summer.mouseEnabled = false;
-				self.Winter.mouseEnabled = false;
-			} else {
-				outSummer();
-				outFall();
-				outSpring();
-				outWinter();
-			}
-		}
-		
-		
-		function SunCheck() {
-			if (Sun == "MidSun") {
-				self.MidSun.gotoAndStop(2);
-				filterfilterMidSunChecked();
-				self.FullSun.mouseEnabled = false;
-				self.NoSun.mouseEnabled = false;
-			} else if (Sun == "FullSun") {
-				self.FullSun.gotoAndStop(2);
-				filterfilterFullSunChecked();
-				self.MidSun.mouseEnabled = false;
-				self.NoSun.mouseEnabled = false;
-			} else if (Sun == "NoSun") {
-				self.NoSun.gotoAndStop(2);
-				filterfilterNoSunChecked();
-				self.MidSun.mouseEnabled = false;
-				self.FullSun.mouseEnabled = false;
-			} else {
-				outFullSun();
-				outMidSun();
-				outNoSun();
-			}
-		}
-		
 		
 		//פונקציות קליק למסננים
-		
 		function clickFall() { //בדיקת מצב מהסנן (מסומן או לא מסומן
 			if (Seasons == "clear") { //במידה והמסנן לא מסומן -כלומר המשתמש מעוניין לקבע סינון
 				self.Fall.gotoAndStop(2);
@@ -5852,7 +5835,7 @@ if (reversed == null) { reversed = false; }
 				self.Summer.mouseEnabled = true;
 				//עדיין יש לבצע בדיקה לגבי מסנן שני
 				if (Sun == "clear") {
-					resetFlowers();
+					resetAll();
 					reableMouseEvents();
 				} else if (Sun == "FullSun") {
 					filterFullSunChecked();
@@ -5893,7 +5876,7 @@ if (reversed == null) { reversed = false; }
 				self.Summer.mouseEnabled = true;
 				//עדיין יש לבצע בדיקה לגבי מסנן שני
 				if (Sun == "clear") {
-					resetFlowers();
+					resetAll();
 					reableMouseEvents();
 				} else if (Sun == "FullSun") {
 					filterFullSunChecked();
@@ -5934,7 +5917,7 @@ if (reversed == null) { reversed = false; }
 				self.Summer.mouseEnabled = true;
 				//עדיין יש לבצע בדיקה לגבי מסנן שני
 				if (Sun == "clear") {
-					resetFlowers();
+					resetAll();
 					reableMouseEvents();
 				} else if (Sun == "FullSun") {
 					filterFullSunChecked();
@@ -5975,7 +5958,7 @@ if (reversed == null) { reversed = false; }
 				self.Spring.mouseEnabled = true;
 				//עדיין יש לבצע בדיקה לגבי מסנן שני
 				if (Sun == "clear") {
-					resetFlowers();
+					resetAll();
 					reableMouseEvents();
 				} else if (Sun == "FullSun") {
 					filterFullSunChecked();
@@ -6020,7 +6003,7 @@ if (reversed == null) { reversed = false; }
 				//עדיין יש לבצע בדיקה לגבי מסנן שני
 				if (Seasons == "clear") {
 					reableMouseEvents();
-					resetFlowers();
+					resetAll();
 				} else if (Seasons == "Fall") {
 					filterFallChecked();
 				} else if (Seasons == "Winter") {
@@ -6064,7 +6047,7 @@ if (reversed == null) { reversed = false; }
 				//עדיין יש לבצע בדיקה לגבי מסנן שני
 				if (Seasons == "clear") {
 					reableMouseEvents();
-					resetFlowers();
+					resetAll();
 				} else if (Seasons == "Fall") {
 					filterFallChecked();
 				} else if (Seasons == "Winter") {
@@ -6108,7 +6091,7 @@ if (reversed == null) { reversed = false; }
 				//עדיין יש לבצע בדיקה לגבי מסנן שני
 				if (Seasons == "clear") {
 					reableMouseEvents();
-					resetFlowers();
+					resetAll();
 				} else if (Seasons == "Fall") {
 					filterFallChecked();
 				} else if (Seasons == "Winter") {
@@ -6186,7 +6169,7 @@ if (reversed == null) { reversed = false; }
 	this.Fall.name = "Fall";
 	this.Fall.setTransform(1174.45,221.9,0.857,0.857);
 
-	this.instance = new lib.CachedBmp_486();
+	this.instance = new lib.CachedBmp_3();
 	this.instance.setTransform(-53687091.2,-53687091.2,0.5,0.5);
 
 	this.Polycycle = new lib.polycyclic();
@@ -6268,7 +6251,7 @@ if (reversed == null) { reversed = false; }
 
 	this.Jasmine = new lib.jasmine();
 	this.Jasmine.name = "Jasmine";
-	this.Jasmine.setTransform(668.75,426.35,1,1,0,0,0,60.3,58.7);
+	this.Jasmine.setTransform(668.65,426.35,1,1,0,0,0,60.2,58.7);
 
 	this.Rose = new lib.rose();
 	this.Rose.name = "Rose";
@@ -6282,7 +6265,7 @@ if (reversed == null) { reversed = false; }
 	this.PansyAT.name = "PansyAT";
 	this.PansyAT.setTransform(412.9,218.1,0.857,0.857);
 
-	this.instance_1 = new lib.CachedBmp_485();
+	this.instance_1 = new lib.CachedBmp_2();
 	this.instance_1.setTransform(2470.45,821.65,0.5,0.5);
 
 	this.instance_2 = new lib.qFall("synched",0);
@@ -6334,11 +6317,11 @@ if (reversed == null) { reversed = false; }
 
 	this.Lilach = new lib.lilach();
 	this.Lilach.name = "Lilach";
-	this.Lilach.setTransform(471.2,414.55,0.9997,0.9692,0,0,0,54.8,63.3);
+	this.Lilach.setTransform(471.2,414.45,0.9997,0.9692,0,0,0,54.8,63.2);
 
 	this.Iris = new lib.iris();
 	this.Iris.name = "Iris";
-	this.Iris.setTransform(662.25,238.45,1,1,0,0,0,53.8,68.3);
+	this.Iris.setTransform(662.25,238.35,1,1,0,0,0,53.8,68.2);
 
 	this.text_5 = new cjs.Text("עברו על הפרחים וגלו איך הכי נכון לגדל אותם", "normal 400 24px 'Varela Round'");
 	this.text_5.textAlign = "right";
@@ -6415,31 +6398,31 @@ lib.properties = {
 	opacity: 1.00,
 	webfonts: {},
 	manifest: [
-		{src:"images/CachedBmp_512.png?1602409976942", id:"CachedBmp_512"},
-		{src:"images/CachedBmp_511.png?1602409976942", id:"CachedBmp_511"},
-		{src:"images/CachedBmp_510.png?1602409976942", id:"CachedBmp_510"},
-		{src:"images/CachedBmp_509.png?1602409976942", id:"CachedBmp_509"},
-		{src:"images/CachedBmp_508.png?1602409976942", id:"CachedBmp_508"},
-		{src:"images/CachedBmp_507.png?1602409976942", id:"CachedBmp_507"},
-		{src:"images/CachedBmp_506.png?1602409976942", id:"CachedBmp_506"},
-		{src:"images/CachedBmp_505.png?1602409976942", id:"CachedBmp_505"},
-		{src:"images/CachedBmp_504.png?1602409976942", id:"CachedBmp_504"},
-		{src:"images/CachedBmp_503.png?1602409976942", id:"CachedBmp_503"},
-		{src:"images/CachedBmp_86.png?1602409976942", id:"CachedBmp_86"},
-		{src:"images/CachedBmp_499.png?1602409976942", id:"CachedBmp_499"},
-		{src:"images/CachedBmp_498.png?1602409976942", id:"CachedBmp_498"},
-		{src:"images/CachedBmp_497.png?1602409976942", id:"CachedBmp_497"},
-		{src:"images/CachedBmp_496.png?1602409976942", id:"CachedBmp_496"},
-		{src:"images/CachedBmp_495.png?1602409976942", id:"CachedBmp_495"},
-		{src:"images/CachedBmp_494.png?1602409976942", id:"CachedBmp_494"},
-		{src:"images/CachedBmp_493.png?1602409976942", id:"CachedBmp_493"},
-		{src:"images/CachedBmp_492.png?1602409976942", id:"CachedBmp_492"},
-		{src:"images/CachedBmp_491.png?1602409976942", id:"CachedBmp_491"},
-		{src:"images/CachedBmp_490.png?1602409976942", id:"CachedBmp_490"},
-		{src:"images/CachedBmp_489.png?1602409976942", id:"CachedBmp_489"},
-		{src:"images/CachedBmp_488.png?1602409976942", id:"CachedBmp_488"},
-		{src:"images/FlowerAtHome_atlas_1.png?1602409976557", id:"FlowerAtHome_atlas_1"},
-		{src:"images/FlowerAtHome_atlas_2.png?1602409976558", id:"FlowerAtHome_atlas_2"}
+		{src:"images/CachedBmp_87.png?1657788035714", id:"CachedBmp_87"},
+		{src:"images/CachedBmp_85.png?1657788035714", id:"CachedBmp_85"},
+		{src:"images/CachedBmp_83.png?1657788035714", id:"CachedBmp_83"},
+		{src:"images/CachedBmp_81.png?1657788035714", id:"CachedBmp_81"},
+		{src:"images/CachedBmp_79.png?1657788035714", id:"CachedBmp_79"},
+		{src:"images/CachedBmp_77.png?1657788035714", id:"CachedBmp_77"},
+		{src:"images/CachedBmp_75.png?1657788035714", id:"CachedBmp_75"},
+		{src:"images/CachedBmp_73.png?1657788035714", id:"CachedBmp_73"},
+		{src:"images/CachedBmp_71.png?1657788035714", id:"CachedBmp_71"},
+		{src:"images/CachedBmp_69.png?1657788035714", id:"CachedBmp_69"},
+		{src:"images/CachedBmp_86.png?1657788035714", id:"CachedBmp_86"},
+		{src:"images/CachedBmp_30.png?1657788035714", id:"CachedBmp_30"},
+		{src:"images/CachedBmp_29.png?1657788035714", id:"CachedBmp_29"},
+		{src:"images/CachedBmp_27.png?1657788035714", id:"CachedBmp_27"},
+		{src:"images/CachedBmp_25.png?1657788035714", id:"CachedBmp_25"},
+		{src:"images/CachedBmp_23.png?1657788035714", id:"CachedBmp_23"},
+		{src:"images/CachedBmp_21.png?1657788035714", id:"CachedBmp_21"},
+		{src:"images/CachedBmp_19.png?1657788035714", id:"CachedBmp_19"},
+		{src:"images/CachedBmp_17.png?1657788035714", id:"CachedBmp_17"},
+		{src:"images/CachedBmp_15.png?1657788035714", id:"CachedBmp_15"},
+		{src:"images/CachedBmp_13.png?1657788035714", id:"CachedBmp_13"},
+		{src:"images/CachedBmp_11.png?1657788035714", id:"CachedBmp_11"},
+		{src:"images/CachedBmp_9.png?1657788035714", id:"CachedBmp_9"},
+		{src:"images/FlowerAtHome_atlas_1.png?1657788034739", id:"FlowerAtHome_atlas_1"},
+		{src:"images/FlowerAtHome_atlas_2.png?1657788034740", id:"FlowerAtHome_atlas_2"}
 	],
 	preloads: []
 };
@@ -6536,8 +6519,23 @@ an.makeResponsive = function(isResp, respDim, isScale, scaleType, domContainers)
 an.handleSoundStreamOnTick = function(event) {
 	if(!event.paused){
 		var stageChild = stage.getChildAt(0);
-		if(!stageChild.paused){
+		if(!stageChild.paused || stageChild.ignorePause){
 			stageChild.syncStreamSounds();
+		}
+	}
+}
+an.handleFilterCache = function(event) {
+	if(!event.paused){
+		var target = event.target;
+		if(target){
+			if(target.filterCacheList){
+				for(var index = 0; index < target.filterCacheList.length ; index++){
+					var cacheInst = target.filterCacheList[index];
+					if((cacheInst.startFrame <= target.currentFrame) && (target.currentFrame <= cacheInst.endFrame)){
+						cacheInst.instance.cache(cacheInst.x, cacheInst.y, cacheInst.w, cacheInst.h);
+					}
+				}
+			}
 		}
 	}
 }
